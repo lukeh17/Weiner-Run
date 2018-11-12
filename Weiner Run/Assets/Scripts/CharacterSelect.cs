@@ -70,7 +70,6 @@ public class CharacterSelect : MonoBehaviour
         {
             Debug.Log("On first item " + index);
             itemPrice.SetActive(false);
-            
         }
 
         index++;

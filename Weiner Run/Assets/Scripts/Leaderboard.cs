@@ -15,8 +15,6 @@ public class Leaderboard : MonoBehaviour {
     void Awake()
     {
         //instance = this;
-     
-        
         leaderboardDisplay = GetComponent<DisplayLeaderboard>();
     }
 
@@ -32,14 +30,12 @@ public class Leaderboard : MonoBehaviour {
 
         if (string.IsNullOrEmpty(www.error))
         {
-            print("Upload Successful");
             DownloadHighScores();
         }
         else
         {
             print("Error uploading " + www.error);
         }
-
     }
 
     public void DownloadHighScores()
@@ -75,7 +71,6 @@ public class Leaderboard : MonoBehaviour {
             string username = entryInfo[0];
             int score = int.Parse(entryInfo[1]);
             highscoresList[i] = new Highscore(username, score);
-            print(highscoresList[i].username + " " + highscoresList[i].score);
         }
 
     }
@@ -89,7 +84,6 @@ public class Leaderboard : MonoBehaviour {
         {
             username = _username;
             score = _score;
-
         }
     }
 

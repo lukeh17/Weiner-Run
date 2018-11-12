@@ -6,7 +6,6 @@ using UnityEngine.UI;
 
 public class GameController : MonoBehaviour {
 
-    //private GameObject leaderboard;
 	public GameObject pauseButton;
 	public GameObject backToMain;
 	public GameObject restartButton;
@@ -26,24 +25,21 @@ public class GameController : MonoBehaviour {
     // Use this for initialization
     void Awake () 
 	{
-        //AdManager.HideBanner();
         if (instance == null)
         {
             instance = this;
         }
 
         UpdatePickleCount();
-	}//end Awake
+	}
 	
 	// Update is called once per frame
 	void Update () {
 		if (gameOver == true) 
 		{
 			pauseButton.SetActive (false);
-			
-
-		}//end if
-	}//end update
+		}
+	}
 
   
     public void UpdatePickleCount()
@@ -68,11 +64,9 @@ public class GameController : MonoBehaviour {
 
     IEnumerator Plus20()
     {
-        //Debug.Log("+20 should be shown");
         plus20.SetActive(true);
         yield return new WaitForSeconds(1);
         plus20.SetActive(false);
-        //Debug.Log("+20 should be hidden");
     }
 
     public void ShowSpeedMarks()
@@ -92,8 +86,6 @@ public class GameController : MonoBehaviour {
 
     public void playerDied()
 	{
-        
-
 		gameOverText.SetActive (true);
 		gameOver = true;
 		restartButton.SetActive (true);
@@ -108,21 +100,15 @@ public class GameController : MonoBehaviour {
             x++;
         }
 
-
-
         if (score > PlayerPrefs.GetInt ("HighScore", 0)) 
 		{
-            
 			PlayerPrefs.SetInt ("HighScore", score);
             highScore.SetActive (true);
 		}
-
-
-	}//end playerDied
+	}
 
     public void AddScore()
     {
         score += 10;
-        //Debug.Log("Adding 20 to score " + score);
     }
-}//end gameController
+}

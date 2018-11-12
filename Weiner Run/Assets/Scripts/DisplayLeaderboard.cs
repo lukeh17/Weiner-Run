@@ -33,7 +33,6 @@ public class DisplayLeaderboard : MonoBehaviour {
                 //highscoreList[i].username + " " +
             }
         }
-
     }
 
     IEnumerator RefreshHighscore()
@@ -42,7 +41,6 @@ public class DisplayLeaderboard : MonoBehaviour {
         {
             leaderboardManager.DownloadHighScores();
             yield return new WaitForSeconds(30);
-
         }
     }
 }

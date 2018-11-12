@@ -22,9 +22,7 @@ public class MuteButtonShow : MonoBehaviour {
                 SoundOn.SetActive(true);
                 SoundOff.SetActive(false);
             }
-
         }
 	}
-	
 	
 }

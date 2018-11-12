@@ -6,18 +6,16 @@ public class DestroyerScript : MonoBehaviour {
 
 	void OnTriggerEnter2D(Collider2D other)
 	{
-		if (other.tag == "Player") {
+		if (other.tag == "Player") 
+		{
 			GameController.instance.playerDied ();
             Destroy(other.gameObject);
-            return;
-	
-			
-		}//end if 
+            return;	
+		} 
 		else 
 		{
 			Destroy (other.gameObject);
-		}//end else
+		}
+	}
 
-	}//end trigger
-
-}//end destroyer
+}

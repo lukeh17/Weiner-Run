@@ -8,8 +8,7 @@ public class MustardPower : MonoBehaviour {
 
     void Start()
     {
-        mustard = GetComponent<SpriteRenderer>();
-        
+        mustard = GetComponent<SpriteRenderer>();        
     }
 
     void OnTriggerEnter2D(Collider2D other)
@@ -19,10 +18,8 @@ public class MustardPower : MonoBehaviour {
             GameController.instance.AddScore();
             mustard.enabled = false;
 
-            GameController.instance.ShowPlus20();
-            
-        }
-       
+            GameController.instance.ShowPlus20();           
+        }  
     }
 
 }

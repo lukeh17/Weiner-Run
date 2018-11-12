@@ -14,9 +14,6 @@ public class AudioManager : MonoBehaviour {
             s.source.volume = s.volume;
             s.source.pitch = s.pitch;
         }
-
-       
-
     }
 
     void Start()
@@ -26,7 +23,9 @@ public class AudioManager : MonoBehaviour {
             AudioListener.volume = 1;
         }
         else
+        {
             AudioListener.volume = 0;
+        }
     }
 	
 	

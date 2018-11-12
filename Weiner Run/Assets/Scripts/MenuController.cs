@@ -17,8 +17,7 @@ public class MenuController : MonoBehaviour {
         if (!PlayerPrefs.HasKey("Username"))
         {
             PlayerPrefs.DeleteKey("Username");
-            Generate();
-            
+            Generate(); 
         }
         
 
@@ -38,7 +37,5 @@ public class MenuController : MonoBehaviour {
         Debug.Log("Username: " + username);
         PlayerPrefs.SetString("Username", username);
     }
-
-
 
 }

@@ -22,6 +22,4 @@ public class Pause : MonoBehaviour {
 		gameIsPaused = true;
 	}
 
-
-
 }

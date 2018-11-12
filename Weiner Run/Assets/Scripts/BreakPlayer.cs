@@ -42,7 +42,6 @@ public class BreakPlayer : MonoBehaviour {
 
             if (hit.collider)
             {
-               // Debug.Log("Hit Object " + hit.collider.name);
                 PlayerExplode();
 
                 return true;
@@ -51,23 +50,14 @@ public class BreakPlayer : MonoBehaviour {
             {
                 return false;
             }
-
         }
-
     }
-
 
     public void PlayerExplode()
     {
-        
-      
         _explodable.explode();
         ExplosionForce ef = GameObject.FindObjectOfType<ExplosionForce>();
         ef.doExplosion(transform.position);
-        //Debug.Log("Should Explode");
-        
-        //GameController.instance.playerDied();
-
         return;
     }
 

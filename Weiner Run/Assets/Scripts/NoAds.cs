@@ -19,5 +19,4 @@ public class NoAds : MonoBehaviour {
             return;
     }
 
-
 }

@@ -23,6 +23,5 @@ public class PickleScript : MonoBehaviour {
             pickle.enabled = false;
             GameController.instance.UpdatePickleCount();
         }
-
     }
 }

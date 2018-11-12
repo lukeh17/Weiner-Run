@@ -42,7 +42,6 @@ public class AdManager : MonoBehaviour, IRewardedVideoAdListener
                 timesTriedToShowInterstitial++;
                 if (timesTriedToShowInterstitial == 4)
                 {
-                    Debug.Log("Interstitial is being shown");
                     Appodeal.show(Appodeal.INTERSTITIAL);
                     timesTriedToShowInterstitial = 0;
                 }
@@ -52,7 +51,6 @@ public class AdManager : MonoBehaviour, IRewardedVideoAdListener
                 timesTriedToShowInterstitial++;
                 if (timesTriedToShowInterstitial == 4)
                 {
-                    Debug.Log("Interstitial is being shown");
                     Appodeal.cache(Appodeal.INTERSTITIAL);
                     timesTriedToShowInterstitial = 0;
                 }
@@ -66,9 +64,7 @@ public class AdManager : MonoBehaviour, IRewardedVideoAdListener
     {
         if (Appodeal.isLoaded(Appodeal.REWARDED_VIDEO))
         {
-            Appodeal.show(Appodeal.REWARDED_VIDEO);
-            Debug.Log("Rewarded Video Shown");
-            
+            Appodeal.show(Appodeal.REWARDED_VIDEO);            
         }
     }
 
@@ -90,8 +86,7 @@ public class AdManager : MonoBehaviour, IRewardedVideoAdListener
     public void onRewardedVideoFinished(int a, string n)
     {
         ShopScript.Instance.AddPickles();
-        ShopScript.Instance.UpdatePickles();
-        Debug.Log("Rewarded Video Finished, Pickles Added");
+        ShopScript.Instance.UpdatePickles(); 
     }
 
     public void onRewardedVideoClosed(bool finished) { }

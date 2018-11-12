@@ -145,7 +145,7 @@ public class Purchase : MonoBehaviour, IStoreListener
     public void OnInitialized(IStoreController controller, IExtensionProvider extensions)
     {
         // Purchasing has succeeded initializing. Collect our Purchasing references.
-        Debug.Log("OnInitialized: PASS");
+       // Debug.Log("OnInitialized: PASS");
 
         // Overall Purchasing system, configured with products for this application.
         m_StoreController = controller;
@@ -165,7 +165,7 @@ public class Purchase : MonoBehaviour, IStoreListener
     {
         if (String.Equals(args.purchasedProduct.definition.id, Pickles_350, StringComparison.Ordinal))
         {
-            Debug.Log("You just bought 350 pickles");
+            //Debug.Log("You just bought 350 pickles");
             int p = PlayerPrefs.GetInt("Pickles");
             p += 350;
             PlayerPrefs.SetInt("Pickles", p);
@@ -173,7 +173,7 @@ public class Purchase : MonoBehaviour, IStoreListener
         }
         else if (String.Equals(args.purchasedProduct.definition.id, NoAds, StringComparison.Ordinal))
         {
-            Debug.Log("You just bought No Ads");
+            //Debug.Log("You just bought No Ads");
             PlayerPrefs.SetInt("Ads", 1);
         }
         else
@@ -189,7 +189,7 @@ public class Purchase : MonoBehaviour, IStoreListener
     {
         // A product purchase attempt did not succeed. Check failureReason for more detail. Consider sharing 
         // this reason with the user to guide their troubleshooting actions.
-        Debug.Log(string.Format("OnPurchaseFailed: FAIL. Product: '{0}', PurchaseFailureReason: {1}", product.definition.storeSpecificId, failureReason));
+       // Debug.Log(string.Format("OnPurchaseFailed: FAIL. Product: '{0}', PurchaseFailureReason: {1}", product.definition.storeSpecificId, failureReason));
     }
 }
 

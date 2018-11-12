@@ -35,9 +35,7 @@ public class ShopScript : MonoBehaviour
     
     public void Awake()
     {
-        //for testing***
-        //PlayerPrefs.DeleteAll();
-      
+
         Instance = this;
 
         if (!PlayerPrefs.HasKey("Items"))
