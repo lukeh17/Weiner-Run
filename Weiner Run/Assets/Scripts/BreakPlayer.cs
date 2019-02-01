@@ -11,11 +11,12 @@ public class BreakPlayer : MonoBehaviour {
 
 
     public float originOffset = 1f;
-    private Explodable _explodable;
+    
+    //private Explodable _explodable;
 
     void Start()
 	{
-        _explodable = GetComponent<Explodable>();
+        //_explodable = GetComponent<Explodable>();
     }
 
     private RaycastHit2D checkRayCast(Vector2 direction)
@@ -24,7 +25,7 @@ public class BreakPlayer : MonoBehaviour {
 
         Vector2 startingPos = new Vector2(transform.position.x + directionOriginOffset, transform.position.y);
 
-        //Debug.DrawRay(startingPos, direction, Color.magenta);
+        Debug.DrawRay(startingPos, direction, Color.magenta);
         return Physics2D.Raycast(startingPos, direction, raycastMaxDistance, 1 << LayerMask.NameToLayer("Ground"));
     }
 
@@ -55,10 +56,11 @@ public class BreakPlayer : MonoBehaviour {
 
     public void PlayerExplode()
     {
-        _explodable.explode();
-        ExplosionForce ef = GameObject.FindObjectOfType<ExplosionForce>();
-        ef.doExplosion(transform.position);
-        return;
+        //_explodable.explode();
+        //ExplosionForce ef = GameObject.FindObjectOfType<ExplosionForce>();
+        //ef.doExplosion(transform.position);
+        DetachScript.Ds.Detach();
+        
     }
 
 }

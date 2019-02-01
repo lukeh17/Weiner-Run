@@ -1,67 +1,46 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Diagnostics;
 using UnityEngine;
+using Debug = System.Diagnostics.Debug;
 
-public class ShowCustomization : MonoBehaviour {
+public class ShowCustomization : MonoBehaviour
+{
 
-    public GameObject astro1;
-    public GameObject astro2;
-    public GameObject astro3;
-    public GameObject astro4;
-    public GameObject astro5;
-    public GameObject astro6;
-    public GameObject astro7;
-    public GameObject astro8;
-    public GameObject astro9;
-    public GameObject astro10;
-    public GameObject astro11;
-    public GameObject astro12;
+    public Object SpaceWeiner;
+    public Object Weiner;
+    public Object SpanishWeiner;
+    public Object BikiniWeiner;
+    public float x;
+    public float y;
 
-    private GameObject[] cust;
-
-    void Start()
+    private void Awake()
     {
         int index = PlayerPrefs.GetInt("Character", 0);
-
-        cust = new GameObject[transform.childCount];
-
-        //fill array
-        for (int i = 0; i < transform.childCount; i++)
-        {
-            cust[i] = transform.GetChild(i).gameObject;
+        
+        switch(index)
+        {          
+            case 0: 
+                Instantiate(Weiner, new Vector3(x, y, 6.842743f), Quaternion.Euler(0, 0, 0));
+                
+            break;
+            
+            case 1: 
+                Instantiate(SpaceWeiner, new Vector3(x, y, 6.842743f), Quaternion.Euler(0, 0, 0));
+                
+            break;
+            
+            case 2: 
+                Instantiate(SpanishWeiner, new Vector3(x, y, 6.842743f), Quaternion.Euler(0, 0, 0));
+               
+            break;
+            
+            case 3: 
+                Instantiate(BikiniWeiner, new Vector3(x, y, 6.842743f), Quaternion.Euler(0, 0, 0));
+                
+            break;
         }
-
-        //turn them all off
-        foreach (GameObject go in cust)
-        {
-            go.SetActive(false);
-        }
-
-        //turn on active
-        if (cust[index])
-        {
-            cust[index].SetActive(true);
-
-            if (index == 1)
-            {
-                ShowAstro();
-            }
-        }
+        
     }
-
-    public void ShowAstro()
-    {
-        astro1.SetActive(true);
-        astro2.SetActive(true);
-        astro3.SetActive(true);
-        astro4.SetActive(true);
-        astro5.SetActive(true);
-        astro6.SetActive(true);
-        astro7.SetActive(true);
-        astro8.SetActive(true);
-        astro9.SetActive(true);
-        astro10.SetActive(true);
-        astro11.SetActive(true);
-        astro12.SetActive(true);
-    }
+  
 }

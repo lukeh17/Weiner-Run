@@ -2,7 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class DestroyerScript : MonoBehaviour {
+public class DestroyerScript : MonoBehaviour 
+{
 
 	void OnTriggerEnter2D(Collider2D other)
 	{
@@ -10,12 +11,10 @@ public class DestroyerScript : MonoBehaviour {
 		{
 			GameController.instance.playerDied ();
             Destroy(other.gameObject);
-            return;	
 		} 
 		else 
 		{
 			Destroy (other.gameObject);
 		}
 	}
-
 }

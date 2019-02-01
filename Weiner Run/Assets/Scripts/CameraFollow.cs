@@ -7,9 +7,15 @@ public class CameraFollow : MonoBehaviour {
 	public float yPos;
 	public float xPos;
 
-	public Transform Player;
+	private Transform Player;
 
-	void Update () {
+	void Start()
+	{
+		Player = GameObject.FindWithTag("Player").transform;
+	}
+
+	void Update () 
+	{
         if (Player != null)
         {
             transform.position = new Vector3(Player.position.x + xPos, yPos, -10);

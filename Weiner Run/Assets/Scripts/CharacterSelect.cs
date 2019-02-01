@@ -48,7 +48,6 @@ public class CharacterSelect : MonoBehaviour
 
         if (index == 1)
         {
-            Debug.Log("On first item " + index);
             itemPrice.SetActive(false);
         }
 
@@ -68,7 +67,6 @@ public class CharacterSelect : MonoBehaviour
 
         if (index == characterList.Length - 1)
         {
-            Debug.Log("On first item " + index);
             itemPrice.SetActive(false);
         }
 
