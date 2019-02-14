@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$PROJECT_DIR$" t="IncludeRecursive">
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="Scripts" t="Include">
+          <e p="Both" t="Include">
+            <e p="LoadScene.cs" t="Include" />
+          </e>
+          <e p="Game" t="Include">
+            <e p="AddScore.cs" t="Include" />
+            <e p="BackgroundMove.cs" t="Include" />
+            <e p="BreakOnContact.cs" t="Include" />
+            <e p="CameraFollow.cs" t="Include" />
+            <e p="DetachScript.cs" t="Include" />
+            <e p="End.cs" t="Include" />
+            <e p="GameCustomization.cs" t="Include" />
+            <e p="InGame.cs" t="Include" />
+            <e p="Ketchup.cs" t="Include" />
+            <e p="Mustard.cs" t="Include" />
+            <e p="ObjectPooler.cs" t="Include" />
+            <e p="ObjectSpawn.cs" t="Include" />
+            <e p="Pause.cs" t="Include" />
+            <e p="Pickle.cs" t="Include" />
+            <e p="Player.cs" t="Include" />
+            <e p="PowerUp.cs" t="Include" />
+            <e p="SelfDistruct.cs" t="Include" />
+          </e>
+          <e p="Menu" t="Include">
+            <e p="MenuController.cs" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="Library" t="ExcludeRecursive" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Temp" t="ExcludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+      </e>
+      <e p="Weiner Run-IOS.sln" t="IncludeFlat" />
+    </e>
+    <e p="$USER_HOME$/Library/Caches/Rider2018.3/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/Rider2018.3/resharper-host/local/Transient/ReSharperHost/v183/SolutionCaches/_Weiner Run-IOS.-2092375225.00" t="ExcludeRecursive" />
+  </component>
+</project>

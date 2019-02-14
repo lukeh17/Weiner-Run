@@ -5,8 +5,10 @@ TagManager:
   serializedVersion: 2
   tags:
   - Ground
-  - Edge
+  - player
+  - Mark
   - Global
+  - grass
   layers:
   - Default
   - TransparentFX
@@ -16,10 +18,10 @@ TagManager:
   - UI
   - 
   - 
+  - Player
   - Ground
-  - player
-  - Edge
-  - Space Weiner
+  - Background
+  - 
   - 
   - 
   - 
@@ -41,15 +43,9 @@ TagManager:
   - 
   - 
   m_SortingLayers:
-  - name: Background
-    uniqueID: 2375590381
-    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: Player
-    uniqueID: 3833449601
-    locked: 0
-  - name: Weiners
-    uniqueID: 1382140417
+  - name: Top
+    uniqueID: 3774267323
     locked: 0
