@@ -8,6 +8,7 @@ public class BreakOnContact : MonoBehaviour
     {
         if (!other.CompareTag("Player")) return;
         DetachScript._ds.Detach();
+        BackgroundMove.Enabled = false;
         InGame._IG.GameOver();
     }
 }

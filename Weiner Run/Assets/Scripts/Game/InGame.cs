@@ -45,7 +45,7 @@ public class InGame : MonoBehaviour
             UI[3].SetActive (true);
         }
 
-        //BackgroundMove.Enabled = false;
+        BackgroundMove.Enabled = false;
     }
     
     public void PlayerScored()
