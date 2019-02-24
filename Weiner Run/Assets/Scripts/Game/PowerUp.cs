@@ -14,13 +14,33 @@ public class PowerUp : MonoBehaviour
         _PU = this;
     }
 
+    public void SetCondiment(string n)
+    {
+        switch (n)
+        {
+            case "Mustard(Clone)":
+                ShowPlus20();
+                break;
+            case "Ketchup(Clone)":
+                ShowSpeedMarks();
+                break;
+            case "Pickle(Clone)":
+                Pickles();
+                break;
+            default:
+                ShowPlus20();
+                break;
+        }    
+    }
+    
     public void SetMarks(GameObject m)
     {
         marks = m;
     }
 
     #region +20
-    public void ShowPlus20()
+
+    private void ShowPlus20()
     {
         StartCoroutine(Plus20());
         InGame._IG.score += 20;
@@ -32,12 +52,12 @@ public class PowerUp : MonoBehaviour
         plus20.SetActive(true);
         yield return new WaitForSeconds(1);
         plus20.SetActive(false);
-        Mustard.Enable();
     }
     #endregion
 
     #region speed
-    public void ShowSpeedMarks()
+
+    private void ShowSpeedMarks()
     {
         StartCoroutine(SpeedMarks());
     }
@@ -49,24 +69,17 @@ public class PowerUp : MonoBehaviour
             yield return new WaitForSeconds(2);
             Player.moveSpeed = 11;
             marks.SetActive(false);
-            Ketchup.Enable();
     }
     #endregion
 
     #region pickles
-    public void Pickles()
+
+    private void Pickles()
     {
         int p = PlayerPrefs.GetInt("Pickles", 0);
         p += 1;
         PlayerPrefs.SetInt("Pickles", p);
         InGame._IG.UpdateText();
-        DisableEnablePickle();
-    }
-
-    private static IEnumerator DisableEnablePickle()
-    {
-        yield return new WaitForSeconds(3);
-        Pickle.Enable();
     }
     
     #endregion

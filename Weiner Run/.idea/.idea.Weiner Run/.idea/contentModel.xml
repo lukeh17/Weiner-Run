@@ -13,22 +13,21 @@
             <e p="BackgroundMove.cs" t="Include" />
             <e p="BreakOnContact.cs" t="Include" />
             <e p="CameraFollow.cs" t="Include" />
+            <e p="CondimentTrigger.cs" t="Include" />
             <e p="DetachScript.cs" t="Include" />
             <e p="End.cs" t="Include" />
             <e p="GameCustomization.cs" t="Include" />
             <e p="InGame.cs" t="Include" />
-            <e p="Ketchup.cs" t="Include" />
-            <e p="Mustard.cs" t="Include" />
             <e p="ObjectPooler.cs" t="Include" />
             <e p="ObjectSpawn.cs" t="Include" />
             <e p="Pause.cs" t="Include" />
-            <e p="Pickle.cs" t="Include" />
             <e p="Player.cs" t="Include" />
             <e p="PowerUp.cs" t="Include" />
             <e p="SelfDistruct.cs" t="Include" />
           </e>
           <e p="Menu" t="Include">
             <e p="MenuController.cs" t="Include" />
+            <e p="SelectWeiner.cs" t="Include" />
           </e>
         </e>
       </e>

@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4351238840163346}
   - component: {fileID: 212064187765572028}
   - component: {fileID: 61784705490796228}
-  - component: {fileID: 4371014853500812222}
+  - component: {fileID: 896119634131641816}
   m_Layer: 0
   m_Name: Mustard
   m_TagString: Untagged
@@ -107,7 +107,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.6}
   m_EdgeRadius: 0
---- !u!114 &4371014853500812222
+--- !u!114 &896119634131641816
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -116,6 +116,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1206667411994714}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 421ca77600e4349b5bd6506f782a325f, type: 3}
+  m_Script: {fileID: 11500000, guid: 8d0548c2573284c4caf4e26865793e9b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  CondimentSpriteRenderer: {fileID: 212064187765572028}

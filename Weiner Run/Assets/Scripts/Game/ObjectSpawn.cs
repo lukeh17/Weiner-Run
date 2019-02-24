@@ -34,6 +34,8 @@ public class ObjectSpawn : MonoBehaviour
     
     private static string GetCondimentName()
     {
+        //CondimentTrigger._CondimentTrigger.condiment.enabled = true;
+        
         var i = Random.Range(0, 5);
         switch (i)
         {

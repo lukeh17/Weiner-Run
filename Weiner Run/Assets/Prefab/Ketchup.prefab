@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4418978017663504}
   - component: {fileID: 212963389659479746}
   - component: {fileID: 61176764659061394}
-  - component: {fileID: 1066394740853467980}
+  - component: {fileID: 5130438998688376031}
   m_Layer: 0
   m_Name: Ketchup
   m_TagString: Untagged
@@ -107,7 +107,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.61}
   m_EdgeRadius: 0
---- !u!114 &1066394740853467980
+--- !u!114 &5130438998688376031
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -116,6 +116,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1535655508180504}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cbb09dac1751c47d5919e9d72a324613, type: 3}
+  m_Script: {fileID: 11500000, guid: 8d0548c2573284c4caf4e26865793e9b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  CondimentSpriteRenderer: {fileID: 212963389659479746}

@@ -12,6 +12,10 @@ TextureImporter:
     21300014: Play
     21300016: Restart
     21300018: CounterTop
+    21300020: PlusButton
+    21300022: AdButton
+    21300024: SoundOn
+    21300026: SoundOff
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -199,7 +203,7 @@ TextureImporter:
       name: Foot
       rect:
         serializedVersion: 2
-        x: 3
+        x: 0
         y: 1
         width: 14
         height: 7
@@ -219,7 +223,7 @@ TextureImporter:
       name: BackArrow
       rect:
         serializedVersion: 2
-        x: 28
+        x: 15
         y: 0
         width: 10
         height: 8
@@ -239,8 +243,8 @@ TextureImporter:
       name: Pause
       rect:
         serializedVersion: 2
-        x: 33
-        y: 11
+        x: 28
+        y: 8
         width: 3
         height: 5
       alignment: 0
@@ -259,8 +263,8 @@ TextureImporter:
       name: Play
       rect:
         serializedVersion: 2
-        x: 39
-        y: 10
+        x: 26
+        y: 0
         width: 4
         height: 7
       alignment: 0
@@ -279,8 +283,8 @@ TextureImporter:
       name: Restart
       rect:
         serializedVersion: 2
-        x: 43
-        y: 0
+        x: 32
+        y: 9
         width: 9
         height: 10
       alignment: 0
@@ -299,10 +303,30 @@ TextureImporter:
       name: CounterTop
       rect:
         serializedVersion: 2
-        x: 54
+        x: 65
         y: 0
         width: 23
         height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7294df6e6e03640959e49d2e9bd017d9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlusButton
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 0
+        width: 7
+        height: 7
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -310,7 +334,67 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7294df6e6e03640959e49d2e9bd017d9
+      spriteID: ef466303646f840c780f5f4026bd1497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AdButton
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 10
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0602ddc6ac8bd408c9c25dfcc0a4ab2c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoundOn
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 0
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b969d0605b87c42a7b8816f2d9e306c1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoundOff
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 0
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af1f91d6262c6427e9c33d91e1cbe67c
       vertices: []
       indices: 
       edges: []
