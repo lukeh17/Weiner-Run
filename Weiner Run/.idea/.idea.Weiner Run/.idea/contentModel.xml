@@ -6,7 +6,9 @@
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
           <e p="Both" t="Include">
+            <e p="AudioManager.cs" t="Include" />
             <e p="LoadScene.cs" t="Include" />
+            <e p="Sound.cs" t="Include" />
           </e>
           <e p="Game" t="Include">
             <e p="AddScore.cs" t="Include" />
@@ -26,8 +28,11 @@
             <e p="SelfDistruct.cs" t="Include" />
           </e>
           <e p="Menu" t="Include">
+            <e p="DisplayLeaderboard.cs" t="Include" />
+            <e p="Leaderboard.cs" t="Include" />
             <e p="MenuController.cs" t="Include" />
             <e p="SelectWeiner.cs" t="Include" />
+            <e p="Shop.cs" t="Include" />
           </e>
         </e>
       </e>

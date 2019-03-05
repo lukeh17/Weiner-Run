@@ -5,7 +5,9 @@ using UnityEngine;
 public class PowerUp : MonoBehaviour
 {
     public GameObject plus20;
+    public float FastSpeed = 12.5f;
     private GameObject marks;
+    private GameObject fire;
 
     public static PowerUp _PU;
 
@@ -33,9 +35,16 @@ public class PowerUp : MonoBehaviour
         }    
     }
     
-    public void SetMarks(GameObject m)
+    public void SetObjects(GameObject m, GameObject f)
     {
         marks = m;
+        fire = f;
+    }
+
+    public void ShowFire()
+    {
+        fire.SetActive(true);
+        AudioManager._AM.Play("Sizzle");
     }
 
     #region +20
@@ -65,7 +74,7 @@ public class PowerUp : MonoBehaviour
     private IEnumerator SpeedMarks()
     {
             marks.SetActive(true);
-            Player.moveSpeed = 12;
+            Player.moveSpeed = FastSpeed;
             yield return new WaitForSeconds(2);
             Player.moveSpeed = 11;
             marks.SetActive(false);

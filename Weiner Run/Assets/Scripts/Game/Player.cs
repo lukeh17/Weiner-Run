@@ -11,6 +11,7 @@ public class Player : MonoBehaviour
     public float groundCheckRadius;
     public LayerMask whatIsGround;
     public GameObject mark;
+    public GameObject fire;
     
     private Rigidbody2D rb;
     #endregion
@@ -18,7 +19,7 @@ public class Player : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        PowerUp._PU.SetMarks(mark);
+        PowerUp._PU.SetObjects(mark, fire);
         CameraFollow.SetPlayer(gameObject);
         moveSpeed = 11;
     }
@@ -29,9 +30,8 @@ public class Player : MonoBehaviour
 
         if (!Input.GetMouseButtonDown(0) || !CheckGround()) return;
         rb.velocity = new Vector2 (rb.velocity.x, jumpForce);
-        //For Playing jump sound: FindObjectOfType<AudioManager>().Play("jump");
-        //Should add the AudioManager to a variable so it won't have to call FindObject each time
-        //Or make the AudioManager an instance and call that.
+        fire.SetActive(false);
+        AudioManager._AM.Play("Jump");
     }
 
     private bool CheckGround()

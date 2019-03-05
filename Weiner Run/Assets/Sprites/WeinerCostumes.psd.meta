@@ -13,6 +13,7 @@ TextureImporter:
     21300016: Poncho
     21300018: Monocle
     21300020: Suit
+    21300022: Fire
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -332,6 +333,26 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: bab2a216b51f94e48b486f11940cffed
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 192
+        width: 36
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4c119b73e3854481aa1cd81e98fddae
       vertices: []
       indices: 
       edges: []

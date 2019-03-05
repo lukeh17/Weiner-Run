@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class MenuController : MonoBehaviour {
 
-    //public GameObject leaderboard;
     const string characters = "abcdefghijklmnopqrstuvwxyz0123456789";
 
     private int score;
@@ -12,8 +11,8 @@ public class MenuController : MonoBehaviour {
 
     void Start()
     {
-        //AdManager.ShowBanner();
-
+        PlayerPrefs.SetInt("0", 1); //Sets the regular weiner to be bought;
+        
         if (!PlayerPrefs.HasKey("Username"))
         {
             PlayerPrefs.DeleteKey("Username");
@@ -24,7 +23,6 @@ public class MenuController : MonoBehaviour {
         username = PlayerPrefs.GetString("Username");
         score = PlayerPrefs.GetInt("HighScore", 0);
         
-        //leaderboard.GetComponent<Leaderboard>().AddHighScore(username, score);
     }
 
     public void Generate()

@@ -20,6 +20,7 @@ public class DetachScript : MonoBehaviour
 
 	public void Detach()
 	{
+		AudioManager._AM.Play("Explosion");
 		anim.enabled = false;
 		transform.parent = null;
 		foreach (Rigidbody2D rb in _rigidbody2Ds)
