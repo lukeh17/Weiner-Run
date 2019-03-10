@@ -3,14 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-
 public class DisplayLeaderboard : MonoBehaviour {
 
     public Text[] highscoreText;
     public Text OwnHighscore;
     Leaderboard leaderboardManager;
 
-	void Start () {
+    private void Start () {
 
         for (int i = 0; i < highscoreText.Length; i++)
         {
@@ -19,7 +18,7 @@ public class DisplayLeaderboard : MonoBehaviour {
 
         leaderboardManager = GetComponent<Leaderboard>();
 
-        StartCoroutine("RefreshHighscore");
+        StartCoroutine(nameof(RefreshHighscore));
 	}
 
     public void OnHighscoresDownloaded(Leaderboard.Highscore[] highscoreList)
@@ -35,7 +34,7 @@ public class DisplayLeaderboard : MonoBehaviour {
         }
     }
 
-    IEnumerator RefreshHighscore()
+    private IEnumerator RefreshHighscore()
     {
         while (true)
         {

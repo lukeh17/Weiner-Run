@@ -169,6 +169,7 @@ GameObject:
   - component: {fileID: 4912968344370260}
   - component: {fileID: 2243076908122520704}
   - component: {fileID: 6578635670573041091}
+  - component: {fileID: 2524800525525001850}
   m_Layer: 10
   m_Name: Grills
   m_TagString: grass
@@ -231,6 +232,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 09049d4382cc84d9380ecf9403902601, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!95 &2524800525525001850
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1166259218846266}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: bf8a7ac4190db4b8fa58678bc8e5d4e3, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1656080358652192
 GameObject:
   m_ObjectHideFlags: 0
@@ -301,7 +321,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 0f7b6f7334b674b0f996b714cec18658, type: 3}
+  m_Sprite: {fileID: 21300000, guid: ae7c4ded7c01d456385c689fdacb79de, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0

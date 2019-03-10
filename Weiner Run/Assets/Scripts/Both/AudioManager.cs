@@ -7,10 +7,10 @@ public class AudioManager : MonoBehaviour
     public static AudioManager _AM;
     public Sound[] sounds;
 
-    void Awake()
+    private void Awake()
     {
         _AM = this;
-        foreach (Sound s in sounds)
+        foreach (var s in sounds)
         {
             s.source = gameObject.AddComponent<AudioSource>();
             s.source.clip = s.clip;
@@ -20,7 +20,7 @@ public class AudioManager : MonoBehaviour
         }
     }
 
-    void Start()
+    private void Start()
     {
         AudioListener.volume = PlayerPrefs.GetInt("Pause", 1) == 1 ? 1 : 0;
     }
@@ -31,9 +31,8 @@ public class AudioManager : MonoBehaviour
         s.source.Play();
 	}
 
-    public void mute()
+    public void Mute()
     {
-        // AudioListener.pause = !AudioListener.pause;
         if (PlayerPrefs.GetInt("Pause", 1) == 0)
         {
             PlayerPrefs.SetInt("Pause", 1);

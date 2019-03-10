@@ -119,4 +119,3 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d0548c2573284c4caf4e26865793e9b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CondimentSpriteRenderer: {fileID: 212118740164451548}

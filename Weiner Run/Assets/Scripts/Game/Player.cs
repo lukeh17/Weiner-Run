@@ -15,16 +15,16 @@ public class Player : MonoBehaviour
     
     private Rigidbody2D rb;
     #endregion
-    
-    void Start()
+
+    private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         PowerUp._PU.SetObjects(mark, fire);
         CameraFollow.SetPlayer(gameObject);
         moveSpeed = 11;
     }
-    
-    void Update()
+
+    private void Update()
     {
         rb.velocity = new Vector2 (moveSpeed, rb.velocity.y);
 

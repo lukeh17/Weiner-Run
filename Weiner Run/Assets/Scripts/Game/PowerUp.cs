@@ -41,6 +41,11 @@ public class PowerUp : MonoBehaviour
         fire = f;
     }
 
+    public void HideFire()
+    {
+        fire.SetActive(false);
+    }
+
     public void ShowFire()
     {
         fire.SetActive(true);

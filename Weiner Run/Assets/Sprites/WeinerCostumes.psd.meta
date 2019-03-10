@@ -14,6 +14,16 @@ TextureImporter:
     21300018: Monocle
     21300020: Suit
     21300022: Fire
+    21300024: WeinerCostumes_0
+    21300026: Sombrero
+    21300028: WeinerCostumes_1
+    21300030: WeinerCostumes_2
+    21300032: WeinerCostumes_3
+    21300034: WeinerCostumes_4
+    21300036: WeinerCostumes_5
+    21300038: WeinerCostumes_6
+    21300040: WeinerCostumes_7
+    21300042: SpaceSuitPiece
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -161,8 +171,8 @@ TextureImporter:
       name: Boot
       rect:
         serializedVersion: 2
-        x: 0
-        y: 200
+        x: 6
+        y: 199
         width: 14
         height: 7
       alignment: 9
@@ -182,9 +192,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 162
+        y: 156
         width: 24
-        height: 37
+        height: 42
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -201,8 +211,8 @@ TextureImporter:
       name: Pickle
       rect:
         serializedVersion: 2
-        x: 0
-        y: 144
+        x: 31
+        y: 221
         width: 20
         height: 17
       alignment: 0
@@ -222,7 +232,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 25
-        y: 163
+        y: 156
         width: 44
         height: 18
       alignment: 9
@@ -238,31 +248,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sombrero2
-      rect:
-        serializedVersion: 2
-        x: 29
-        y: 236
-        width: 28
-        height: 13
-      alignment: 9
-      pivot: {x: 0.4932714, y: 0.02176138}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 13a59f3f3053b46fc965b7d987ea691e
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Mustache
       rect:
         serializedVersion: 2
-        x: 30
-        y: 229
+        x: 31
+        y: 239
         width: 21
         height: 6
       alignment: 0
@@ -281,8 +271,8 @@ TextureImporter:
       name: Poncho
       rect:
         serializedVersion: 2
-        x: 32
-        y: 185
+        x: 54
+        y: 174
         width: 19
         height: 41
       alignment: 0
@@ -301,8 +291,8 @@ TextureImporter:
       name: Monocle
       rect:
         serializedVersion: 2
-        x: 53
-        y: 185
+        x: 57
+        y: 231
         width: 13
         height: 19
       alignment: 0
@@ -321,8 +311,8 @@ TextureImporter:
       name: Suit
       rect:
         serializedVersion: 2
-        x: 58
-        y: 205
+        x: 29
+        y: 175
         width: 24
         height: 45
       alignment: 0
@@ -346,7 +336,7 @@ TextureImporter:
         width: 36
         height: 58
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []

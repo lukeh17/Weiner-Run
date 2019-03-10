@@ -155,8 +155,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7726193913858764538}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.008093417, y: 0.32207394, z: -2.280397}
-  m_LocalScale: {x: 1.2134167, y: 1.2013913, z: 1}
+  m_LocalPosition: {x: -0.002, y: 0.335, z: -2.280397}
+  m_LocalScale: {x: 1.3750439, y: 1.2013913, z: 1}
   m_Children: []
   m_Father: {fileID: 2847482591661830642}
   m_RootOrder: 4
@@ -439,15 +439,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 212018950076081328, guid: 82ec9365ca216fc4090e2bd49a4ed28e,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 61671074304751716, guid: 82ec9365ca216fc4090e2bd49a4ed28e,
         type: 3}
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 212018950076081328, guid: 82ec9365ca216fc4090e2bd49a4ed28e,
+    - target: {fileID: 61138522495706240, guid: 82ec9365ca216fc4090e2bd49a4ed28e,
         type: 3}
-      propertyPath: m_SortingOrder
-      value: 6
+      propertyPath: m_SpriteTilingProperty.pivot.x
+      value: 0.0066170786
+      objectReference: {fileID: 0}
+    - target: {fileID: 61138522495706240, guid: 82ec9365ca216fc4090e2bd49a4ed28e,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.pivot.y
+      value: 0.5000003
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 82ec9365ca216fc4090e2bd49a4ed28e, type: 3}

@@ -6,7 +6,6 @@ using UnityEngine.UI;
 public class InGame : MonoBehaviour
 {
     #region variables
-
     public GameObject[] UI;
     public Text scoreText;
     public Text pickleText;
@@ -24,12 +23,6 @@ public class InGame : MonoBehaviour
     }
     #endregion
 
-    private void Start()
-    {
-        ObjectSpawn._os.SpawnGrass();
-        ObjectSpawn._os.SpawnCondiment();
-    }
-
     public void GameOver()
     {
         for (int i = 0; i < 3; i++)
@@ -44,14 +37,31 @@ public class InGame : MonoBehaviour
             PlayerPrefs.SetInt ("HighScore", score);
             UI[3].SetActive (true);
         }
-
+        
+        PowerUp._PU.HideFire();
+        Player.moveSpeed = 0f;
         BackgroundMove.Enabled = false;
+        ShowAd();
     }
     
     public void PlayerScored()
     {
         score++;
         UpdateText();
+    }
+
+    private static void ShowAd()
+    {
+        var adShown = PlayerPrefs.GetInt("ad", 0);
+        if (adShown > 6)
+        {
+            adShown = 0;
+            PlayerPrefs.SetInt("ad", adShown);
+            AdScript._as.ShowInterstitial();
+        }
+
+        adShown++;
+        PlayerPrefs.SetInt("ad", adShown);
     }
 
     public void UpdateText()

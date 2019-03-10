@@ -28,12 +28,6 @@ public class Shop : MonoBehaviour
     {
         PlayerPrefs.SetInt("0", 1);
         
-        //For Testing. Have to buy each time.
-        //PlayerPrefs.SetInt("1", 0);
-        //PlayerPrefs.SetInt("2", 0);
-        //PlayerPrefs.SetInt("3", 0);
-        //PlayerPrefs.SetInt("Pickles", 1000);
-        
         ChooseWeiner(PlayerPrefs.GetInt("Weiner", 0));
         
         for (var i = 1; i < 4; i++)
@@ -85,7 +79,7 @@ public class Shop : MonoBehaviour
                Weiners[1].SetActive(true);
                break;
            
-           case 2: //Hisp weiner
+           case 2: //spa weiner
                ShowCustomization(redFoot, red, Color.white);
                PlayerPrefs.SetInt("Weiner", i);
                Weiners[0].SetActive(true);

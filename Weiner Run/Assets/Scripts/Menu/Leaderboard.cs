@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Networking;
 
 public class Leaderboard : MonoBehaviour {
 
@@ -10,22 +11,24 @@ public class Leaderboard : MonoBehaviour {
 
     public Highscore[] highscoresList;
     DisplayLeaderboard leaderboardDisplay;
-    private bool created;
+    private bool _created;
 
-    void Awake()
+    private void Awake()
     {
-        //instance = this;
         leaderboardDisplay = GetComponent<DisplayLeaderboard>();
     }
 
-    public void AddHighScore(string username, int score)
+    public void AddHighScore()
     {
+        var username = PlayerPrefs.GetString("Username");
+        var score = PlayerPrefs.GetInt("HighScore", 0);
         StartCoroutine(UploadHighScore(username, score));
     }
 
-    IEnumerator UploadHighScore(string username, int score)
+    private IEnumerator UploadHighScore(string username, int score)
     {
         WWW www = new WWW(webURL + privateCode + "/add/" + WWW.EscapeURL(username) + "/" + score);
+        //UnityWebRequest www = new UnityWebRequest(webURL + privateCode + "/add/" + UnityWebRequest.EscapeURL(username) + "/" + score);
         yield return www;
 
         if (string.IsNullOrEmpty(www.error))
@@ -40,16 +43,19 @@ public class Leaderboard : MonoBehaviour {
 
     public void DownloadHighScores()
     {
-        StartCoroutine("DownloadHighScoresFromDatabase");
+        StartCoroutine(nameof(DownloadHighScoresFromDatabase));
     }
 
-    IEnumerator DownloadHighScoresFromDatabase()
+    private IEnumerator DownloadHighScoresFromDatabase()
     {
-        WWW www = new WWW(webURL + publicCode + "/pipe/");
+        WWW www = new WWW(webURL + publicCode + "/pipe/" + "9");
+        //UnityWebRequest www = UnityWebRequest.Get(webURL + publicCode + "/pipe/");
+        
         yield return www;
-
+        
         if (string.IsNullOrEmpty(www.error))
         {
+            //FormatHighscores(www.downloadHandler.text);
             FormatHighscores(www.text);
             leaderboardDisplay.OnHighscoresDownloaded(highscoresList);
         }
@@ -57,10 +63,9 @@ public class Leaderboard : MonoBehaviour {
         {
             print("Error Downloading " + www.error);
         }
-
     }
 
-    void FormatHighscores(string text)
+    private void FormatHighscores(string text)
     {
         string[] entry = text.Split(new char[] { '\n' }, System.StringSplitOptions.RemoveEmptyEntries);
         highscoresList = new Highscore[entry.Length];
@@ -72,13 +77,12 @@ public class Leaderboard : MonoBehaviour {
             int score = int.Parse(entryInfo[1]);
             highscoresList[i] = new Highscore(username, score);
         }
-
     }
 
     public struct Highscore
     {
-        public string username;
-        public int score;
+        private string username;
+        public readonly int score;
 
         public Highscore(string _username, int _score)
         {
@@ -86,5 +90,4 @@ public class Leaderboard : MonoBehaviour {
             score = _score;
         }
     }
-
 }
