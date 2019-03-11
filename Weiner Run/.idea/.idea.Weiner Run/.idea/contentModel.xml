@@ -102,6 +102,7 @@
           </e>
           <e p="Menu" t="Include">
             <e p="DisplayLeaderboard.cs" t="Include" />
+            <e p="GDRP.cs" t="Include" />
             <e p="Leaderboard.cs" t="Include" />
             <e p="MenuController.cs" t="Include" />
             <e p="Shop.cs" t="Include" />

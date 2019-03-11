@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using AppodealAds.Unity.Api;
 using AppodealAds.Unity.Common;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class AdScript : MonoBehaviour, IRewardedVideoAdListener
 {
@@ -32,8 +33,16 @@ public class AdScript : MonoBehaviour, IRewardedVideoAdListener
     
     private void Start()
     {
-        Appodeal.initialize(AppKey, Appodeal.INTERSTITIAL | Appodeal.REWARDED_VIDEO);
-        Appodeal.setTesting(true); //Set to false on published build
+        if (!PlayerPrefs.HasKey("GDRP"))
+        {
+            SceneManager.LoadScene(2);
+        }
+
+        bool consent;
+
+        consent = PlayerPrefs.GetInt("GDRP") == 1;
+        
+        Appodeal.initialize(AppKey, Appodeal.INTERSTITIAL | Appodeal.REWARDED_VIDEO, consent);
         
         Appodeal.disableLocationPermissionCheck();
     }
