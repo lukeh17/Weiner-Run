@@ -5,13 +5,14 @@ using AppodealAds.Unity.Api;
 using AppodealAds.Unity.Common;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class AdScript : MonoBehaviour, IRewardedVideoAdListener
 {
     #region set up
     public static AdScript _as;
     public GameObject NoMoreAds;
-    
+    public Toggle AdsToggle;
     private void Awake()
     {
         _as = this;
@@ -33,6 +34,7 @@ public class AdScript : MonoBehaviour, IRewardedVideoAdListener
     
     private void Start()
     {
+        Appodeal.setTesting(true);
         if (!PlayerPrefs.HasKey("GDRP"))
         {
             SceneManager.LoadScene(2);
@@ -45,6 +47,24 @@ public class AdScript : MonoBehaviour, IRewardedVideoAdListener
         Appodeal.initialize(AppKey, Appodeal.INTERSTITIAL | Appodeal.REWARDED_VIDEO, consent);
         
         Appodeal.disableLocationPermissionCheck();
+    }
+    
+    public void UpdateCheck()
+    {
+        bool consent;
+
+        consent = PlayerPrefs.GetInt("GDRP") == 1;
+        AdsToggle.isOn = consent;
+    }
+
+    public void ChangeConsent()
+    {
+        bool consent;
+
+        consent = PlayerPrefs.GetInt("GDRP") == 1;
+        consent = !consent;
+
+        PlayerPrefs.SetInt("GDRP", consent ? 1 : 0);
     }
     
     public void ShowInterstitial() {

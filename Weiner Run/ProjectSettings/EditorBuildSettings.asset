@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Scene 1.unity
     guid: 765a99e6b6bc36c4a84a662aca1d2780
+  - enabled: 1
+    path: Assets/Scenes/GDRP.unity
+    guid: 73a7c62ced8a54fe6ab018f3d9d5ec47
   m_configObjects: {}
