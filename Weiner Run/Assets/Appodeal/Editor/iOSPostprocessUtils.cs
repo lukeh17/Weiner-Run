@@ -1,46 +1,85 @@
-﻿using UnityEngine;
+﻿using System;
+using System.IO;
+using System.Text;
 using Unity.Appodeal.Xcode;
 using Unity.Appodeal.Xcode.PBX;
-
-using System;
-using System.IO;
+using UnityEditor;
+using UnityEditor.Callbacks;
+using UnityEngine;
 
 namespace Appodeal.Unity.Editor.iOS
 {
-
     public class iOSPostprocessUtils : MonoBehaviour
     {
         static string suffix = ".framework";
         static string absoluteProjPath;
+        static string minVersionToEnableBitcode = "10.0";
 
-#if UNITY_4
-        static string AppodealFramework = "Plugins/iOS/Appodeal.framework";
-#endif
+        static string[] frameworkList =
+        {
+            "AdSupport",
+            "AudioToolbox",
+            "AVFoundation",
+            "CFNetwork",
+            "CoreBluetooth",
+            "CoreFoundation",
+            "CoreGraphics",
+            "CoreImage",
+            "CoreLocation",
+            "CoreMedia",
+            "CoreMotion",
+            "CoreTelephony",
+            "CoreText",
+            "EventKitUI",
+            "EventKit",
+            "GLKit",
+            "ImageIO",
+            "JavaScriptCore",
+            "MediaPlayer",
+            "MessageUI",
+            "MobileCoreServices",
+            "QuartzCore",
+            "SafariServices",
+            "Security",
+            "Social",
+            "StoreKit",
+            "SystemConfiguration",
+            "Twitter",
+            "UIKit",
+            "VideoToolbox",
+            "WatchConnectivity",
+            "WebKit"
+        };
 
-        static string[] frameworkList = new string[] {
-        "AdSupport", "AudioToolbox", "AVFoundation", "CFNetwork", "CoreBluetooth",
-        "CoreFoundation", "CoreGraphics", "CoreImage",
-        "CoreLocation", "CoreMedia", "CoreMotion", "CoreTelephony",
-        "CoreText", "EventKit", "EventKitUI", "GLKit",
-        "ImageIO", "JavaScriptCore", "MediaPlayer", "MessageUI",
-        "MobileCoreServices", "QuartzCore", "SafariServices", "Security",
-        "Social", "StoreKit", "SystemConfiguration", "Twitter",
-        "UIKit", "QuartzCore", "WebKit", "WatchConnectivity"
-    };
+        [Obsolete]
+        [PostProcessBuild]
+        public static void ChangeXcodePlist(BuildTarget buildTarget, string pathToBuiltProject)
+        {
+            if (buildTarget == BuildTarget.iOS)
+            {
+                string plistPath = pathToBuiltProject + "/Info.plist";
+                PlistDocument plist = new PlistDocument();
+                plist.ReadFromString(File.ReadAllText(plistPath));
+                PlistElementDict rootDict = plist.root;
+                //rootDict.SetString("GADApplicationIdentifier", "ca-app-pub-3940256099942544~1458002511");
+                File.WriteAllText(plistPath, plist.WriteToString());
+            }
+        }
 
-        static string[] weakFrameworkList = new string[] {
-        "CoreMotion", "WebKit", "Social"
-    };
+        static string[] weakFrameworkList = new string[]
+        {
+            "CoreMotion",
+            "WebKit",
+            "Social"
+        };
 
-
-        static string[] platformLibs = new string[] {
-        "libc++.dylib",
-        "libz.dylib",
-        "libsqlite3.dylib",
-        "libxml2.2.dylib"
-    };
-
-
+        static string[] platformLibs = new string[]
+        {
+            "libc++.dylib",
+            "libz.dylib",
+            "libsqlite3.dylib",
+            "libxml2.2.dylib"
+        };
 
         public static void PrepareProject(string buildPath)
         {
@@ -49,15 +88,44 @@ namespace Appodeal.Unity.Editor.iOS
             absoluteProjPath = Path.GetFullPath(buildPath);
             PBXProject project = new PBXProject();
             project.ReadFromString(File.ReadAllText(projPath));
-            string target = project.TargetGuidByName("Unity-iPhone");
+            string unityiPhone = project.TargetGuidByName("Unity-iPhone");
+            string unityFramework = project.TargetGuidByName("UnityFramework");
 
-            AddProjectFrameworks(frameworkList, project, target, false);
-            AddProjectFrameworks(weakFrameworkList, project, target, true);
-            AddProjectLibs(platformLibs, project, target);
-            project.AddBuildProperty(target, "OTHER_LDFLAGS", "-ObjC");
-            project.AddBuildProperty(target, "ENABLE_BITCODE", "YES");
-            project.AddBuildProperty(target, "LIBRARY_SEARCH_PATHS", "$(SRCROOT)/Libraries");
+#if UNITY_2019_3
+            AddProjectFrameworks(frameworkList, project, unityFramework, false);
+            AddProjectFrameworks(weakFrameworkList, project, unityFramework, true);
+            AddProjectLibs(platformLibs, project, unityFramework);
+            project.AddBuildProperty(unityFramework, "OTHER_LDFLAGS", "-ObjC");
+            project.AddBuildProperty(unityFramework, "LIBRARY_SEARCH_PATHS", "$(SRCROOT)/Libraries");
+#endif
 
+            AddProjectFrameworks(frameworkList, project, unityiPhone, false);
+            AddProjectFrameworks(weakFrameworkList, project, unityiPhone, true);
+            AddProjectLibs(platformLibs, project, unityiPhone);
+            project.AddBuildProperty(unityiPhone, "OTHER_LDFLAGS", "-ObjC");
+
+            //Major Xcode version version should be the same as that used by the native SDK developers.
+            string xcodeVersion = AppodealUnityUtils.getXcodeVersion();
+            if (xcodeVersion == null ||
+                AppodealUnityUtils.compareVersions(xcodeVersion, minVersionToEnableBitcode) >= 0)
+            {
+                project.SetBuildProperty(unityiPhone, "ENABLE_BITCODE", "YES");
+#if UNITY_2019_3
+                project.SetBuildProperty(unityFramework, "ENABLE_BITCODE", "YES");
+#endif
+            }
+            else
+            {
+                project.SetBuildProperty(unityiPhone, "ENABLE_BITCODE", "NO");
+#if UNITY_2019_3
+                project.SetBuildProperty(unityFramework, "ENABLE_BITCODE", "NO");
+#endif
+            }
+
+            project.AddBuildProperty(unityiPhone, "LIBRARY_SEARCH_PATHS", "$(SRCROOT)/Libraries");
+
+            //Adapters are archived in order not to exceed the 100 Mb limit on GitHub
+            //Some users use GitHub with Unity Cloud Build
             string apdFolder = "Adapters";
             string appodealPath = Path.Combine(Application.dataPath, "Appodeal");
             string adaptersPath = Path.Combine(appodealPath, apdFolder);
@@ -69,38 +137,46 @@ namespace Appodeal.Unity.Editor.iOS
                     {
                         Debug.Log("unzipping:" + file);
                         ExtractZip(file, Path.Combine(absoluteProjPath, apdFolder));
-                        AddAdaptersDirectory(apdFolder, project, target);
+                        AddAdaptersDirectory(apdFolder, project, unityiPhone);
+#if UNITY_2019_3
+                        AddAdaptersDirectory(apdFolder, project, unityFramework);
+#endif
                     }
                 }
             }
-            string resourcesFolder = "InternalResources";
-            string chZip = "CrashHunter.zip";
-            string resourcesPath = Path.Combine(appodealPath, resourcesFolder);
-            MacOSUnzip(Path.Combine(resourcesPath, chZip), buildPath);
-            project.AppendShellScriptBuildPhase(target, "Run Script ChashHunter", "/bin/sh", "$PROJECT_DIR/CrashHunterScript.sh");
-
-#if UNITY_4
-        project.AddBuildProperty (target, "FRAMEWORK_SEARCH_PATHS", "$(PROJECT_DIR)/Frameworks/Plugins/iOS");
-        project.SetBuildProperty (target, "LIBRARY_SEARCH_PATHS", "$(SRCROOT)/Libraries");
-        CopyAndReplaceDirectory ("Assets/" + AppodealFramework, Path.Combine(buildPath, "Frameworks/" + AppodealFramework));
-        project.AddFileToBuild(target, project.AddFile("Frameworks/" + AppodealFramework, "Frameworks/" + AppodealFramework, PBXSourceTree.Source));
-#endif
 
             File.WriteAllText(projPath, project.WriteToString());
         }
 
         static void MacOSUnzip(string source, string dest)
         {
-            try {
+            try
+            {
                 System.Diagnostics.ProcessStartInfo startInfo = new System.Diagnostics.ProcessStartInfo()
                 {
                     FileName = "unzip",
-                    Arguments = source + " -d " + dest
+                    Arguments = "\"" + source + "\"" + " -d " + "\"" + dest + "\"",
                 };
-                System.Diagnostics.Process proc = new System.Diagnostics.Process() { StartInfo = startInfo, };
+                startInfo.RedirectStandardOutput = true;
+                startInfo.RedirectStandardError = true;
+                startInfo.UseShellExecute = false;
+                System.Diagnostics.Process proc = new System.Diagnostics.Process() {StartInfo = startInfo,};
                 bool started = proc.Start();
+                StringBuilder standardOutput = new StringBuilder();
+                StringBuilder errorOutput = new StringBuilder();
+                while (!proc.HasExited)
+                {
+                    standardOutput.Append(proc.StandardOutput.ReadToEnd());
+                    errorOutput.Append(proc.StandardError.ReadToEnd());
+                }
+
+                standardOutput.Append(proc.StandardOutput.ReadToEnd());
+                errorOutput.Append(proc.StandardError.ReadToEnd());
+                Debug.Log(standardOutput);
+                Debug.Log(errorOutput);
             }
-            catch(Exception e){
+            catch (Exception e)
+            {
                 Debug.Log(e.Message);
                 ExtractZip(source, dest);
             }
@@ -126,24 +202,13 @@ namespace Appodeal.Unity.Editor.iOS
             }
         }
 
-        public static void UpdatePlist(string buildPath)
-        {
-#if UNITY_4
-        string plistPath = Path.Combine (buildPath, "Info.plist");
-        PlistDocument plist = new PlistDocument ();
-        plist.ReadFromString(File.ReadAllText (plistPath)); 
-        PlistElementDict dict = plist.root.CreateDict ("NSAppTransportSecurity");
-        dict.SetBoolean ("NSAllowsArbitraryLoads", true);
-        File.WriteAllText(plistPath, plist.WriteToString());
-#endif
-        }
-
         static void CopyAndReplaceDirectory(string srcPath, string dstPath)
         {
             if (Directory.Exists(dstPath))
             {
                 Directory.Delete(dstPath);
             }
+
             if (File.Exists(dstPath))
             {
                 File.Delete(dstPath);
@@ -184,7 +249,8 @@ namespace Appodeal.Unity.Editor.iOS
             if (path.EndsWith(".framework", StringComparison.CurrentCultureIgnoreCase))
             {
                 proj.AddFileToBuild(targetGuid, proj.AddFile(path, path));
-                string tmp = Utils.FixSlashesInPath(string.Format("$(PROJECT_DIR)/{0}", path.Substring(0, path.LastIndexOf(Path.DirectorySeparatorChar))));
+                string tmp = Utils.FixSlashesInPath(string.Format("$(PROJECT_DIR)/{0}",
+                    path.Substring(0, path.LastIndexOf(Path.DirectorySeparatorChar))));
                 proj.AddBuildProperty(targetGuid, "FRAMEWORK_SEARCH_PATHS", tmp);
                 return;
             }
@@ -206,16 +272,19 @@ namespace Appodeal.Unity.Editor.iOS
                 if (fileName.EndsWith(".DS_Store", StringComparison.Ordinal))
                     continue;
 
-                proj.AddFileToBuild(targetGuid, proj.AddFile(Path.Combine(path, fileName), Path.Combine(path, fileName), PBXSourceTree.Source));
+                proj.AddFileToBuild(targetGuid,
+                    proj.AddFile(Path.Combine(path, fileName), Path.Combine(path, fileName), PBXSourceTree.Source));
                 if (!libPathAdded && fileName.EndsWith(".a", StringComparison.Ordinal))
                 {
-                    proj.AddBuildProperty(targetGuid, "LIBRARY_SEARCH_PATHS", Utils.FixSlashesInPath(string.Format("$(PROJECT_DIR)/{0}", path)));
+                    proj.AddBuildProperty(targetGuid, "LIBRARY_SEARCH_PATHS",
+                        Utils.FixSlashesInPath(string.Format("$(PROJECT_DIR)/{0}", path)));
                     libPathAdded = true;
                 }
 
                 if (!headPathAdded && fileName.EndsWith(".h", StringComparison.Ordinal))
                 {
-                    proj.AddBuildProperty(targetGuid, "HEADER_SEARCH_PATHS", Utils.FixSlashesInPath(string.Format("$(PROJECT_DIR)/{0}", path)));
+                    proj.AddBuildProperty(targetGuid, "HEADER_SEARCH_PATHS",
+                        Utils.FixSlashesInPath(string.Format("$(PROJECT_DIR)/{0}", path)));
                     headPathAdded = true;
                 }
             }

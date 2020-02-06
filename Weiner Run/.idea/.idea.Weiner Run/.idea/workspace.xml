@@ -2,40 +2,389 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bd11cbaf-6a6d-4fef-a5c4-c0c994dd853a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Weiner Run/.idea/projectSettingsUpdater.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Weiner Run/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Weiner Run/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Weiner Run/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Weiner Run/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Weiner Run/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Weiner Run/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Background.controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Background.controller.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Weiner.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/Weiner.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/FancyWeiner.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/FancyWeiner.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Grills.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Grills.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/HispanicWeiner.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/HispanicWeiner.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Pickle.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Pickle.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/SpaceWeiner.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/SpaceWeiner.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Weiner.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Weiner.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainMenu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainMenu.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Scene 1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Scene 1.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Both/AudioManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Both/AudioManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/BreakOnContact.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/BreakOnContact.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Appodeal.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Appodeal.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Appodeal/Adapters.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Appodeal/Adapters.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Appodeal/Adapters/APDAdColonyAdapter.embeddedframework.zip" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Appodeal/Adapters/APDAdColonyAdapter.embeddedframework.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Appodeal/Adapters/APDAdColonyAdapter.embeddedframework.zip.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Appodeal/Adapters/APDAdColonyAdapter.embeddedframework.zip.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Appodeal/Adapters/APDAmazonAdsAdapter.embeddedframework.zip" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Appodeal/Adapters/APDAmazonAdsAdapter.embeddedframework.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Appodeal/Adapters/APDAmazonAdsAdapter.embeddedframework.zip.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Appodeal/Adapters/APDAmazonAdsAdapter.embeddedframework.zip.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Appodeal/Adapters/APDAppLovinAdapter.embeddedframework.zip" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Appodeal/Adapters/APDAppLovinAdapter.embeddedframework.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Appodeal/Adapters/APDAppLovinAdapter.embeddedframework.zip.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Appodeal/Adapters/APDAppLovinAdapter.embeddedframework.zip.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Appodeal/Adapters/APDAppodealAdExchangeAdapter.embeddedframework.zip" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Appodeal/Adapters/APDAppodealAdExchangeAdapter.embeddedframework.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Appodeal/Adapters/APDAppodealAdExchangeAdapter.embeddedframework.zip.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Appodeal/Adapters/APDAppodealAdExchangeAdapter.embeddedframework.zip.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Appodeal/Adapters/APDChartboostAdapter.embeddedframework.zip" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Appodeal/Adapters/APDChartboostAdapter.embeddedframework.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Appodeal/Adapters/APDChartboostAdapter.embeddedframework.zip.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Appodeal/Adapters/APDChartboostAdapter.embeddedframework.zip.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Appodeal/Adapters/APDFacebookAudienceAdapter.embeddedframework.zip" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Appodeal/Adapters/APDFacebookAudienceAdapter.embeddedframework.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Appodeal/Adapters/APDFacebookAudienceAdapter.embeddedframework.zip.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Appodeal/Adapters/APDFacebookAudienceAdapter.embeddedframework.zip.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Appodeal/Adapters/APDFlurryAdapter.embeddedframework.zip" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Appodeal/Adapters/APDFlurryAdapter.embeddedframework.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Appodeal/Adapters/APDFlurryAdapter.embeddedframework.zip.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Appodeal/Adapters/APDFlurryAdapter.embeddedframework.zip.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Appodeal/Adapters/APDGoogleAdMobAdapter.embeddedframework.zip" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Appodeal/Adapters/APDGoogleAdMobAdapter.embeddedframework.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Appodeal/Adapters/APDGoogleAdMobAdapter.embeddedframework.zip.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Appodeal/Adapters/APDGoogleAdMobAdapter.embeddedframework.zip.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Appodeal/Adapters/APDInMobiAdapter.embeddedframework.zip" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Appodeal/Adapters/APDInMobiAdapter.embeddedframework.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Appodeal/Adapters/APDInMobiAdapter.embeddedframework.zip.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Appodeal/Adapters/APDInMobiAdapter.embeddedframework.zip.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Appodeal/Adapters/APDIronSourceAdapter.embeddedframework.zip" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Appodeal/Adapters/APDIronSourceAdapter.embeddedframework.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Appodeal/Adapters/APDIronSourceAdapter.embeddedframework.zip.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Appodeal/Adapters/APDIronSourceAdapter.embeddedframework.zip.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Appodeal/Adapters/APDMobvistaAdapter.embeddedframework.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Appodeal/Adapters/APDMobvistaAdapter.embeddedframework.zip.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Appodeal/Adapters/APDMyTargetAdapter.embeddedframework.zip" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Appodeal/Adapters/APDMyTargetAdapter.embeddedframework.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Appodeal/Adapters/APDMyTargetAdapter.embeddedframework.zip.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Appodeal/Adapters/APDMyTargetAdapter.embeddedframework.zip.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Appodeal/Adapters/APDStartAppAdapter.embeddedframework.zip" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Appodeal/Adapters/APDStartAppAdapter.embeddedframework.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Appodeal/Adapters/APDStartAppAdapter.embeddedframework.zip.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Appodeal/Adapters/APDStartAppAdapter.embeddedframework.zip.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Appodeal/Adapters/APDTapjoyAdapter.embeddedframework.zip" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Appodeal/Adapters/APDTapjoyAdapter.embeddedframework.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Appodeal/Adapters/APDTapjoyAdapter.embeddedframework.zip.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Appodeal/Adapters/APDTapjoyAdapter.embeddedframework.zip.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Appodeal/Adapters/APDTwitterMoPubAdapter.embeddedframework.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Appodeal/Adapters/APDTwitterMoPubAdapter.embeddedframework.zip.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Appodeal/Adapters/APDUnityAdapter.embeddedframework.zip" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Appodeal/Adapters/APDUnityAdapter.embeddedframework.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Appodeal/Adapters/APDUnityAdapter.embeddedframework.zip.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Appodeal/Adapters/APDUnityAdapter.embeddedframework.zip.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Appodeal/Adapters/APDVungleAdapter.embeddedframework.zip" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Appodeal/Adapters/APDVungleAdapter.embeddedframework.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Appodeal/Adapters/APDVungleAdapter.embeddedframework.zip.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Appodeal/Adapters/APDVungleAdapter.embeddedframework.zip.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Appodeal/Adapters/APDYandexAdapter.embeddedframework.zip" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Appodeal/Adapters/APDYandexAdapter.embeddedframework.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Appodeal/Adapters/APDYandexAdapter.embeddedframework.zip.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Appodeal/Adapters/APDYandexAdapter.embeddedframework.zip.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Appodeal/Adapters/CrashHunter.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Appodeal/Adapters/CrashHunter.zip.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Appodeal/Api.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Appodeal/Api.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Appodeal/Api/Appodeal.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Appodeal/Api/Appodeal.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Appodeal/Api/Appodeal.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Appodeal/Api/Appodeal.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Appodeal/AppodealDemo.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Appodeal/AppodealDemo.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Appodeal/AppodealDemo/AppodealDemo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Appodeal/AppodealDemo/AppodealDemo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Appodeal/AppodealDemo/AppodealDemo.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Appodeal/AppodealDemo/AppodealDemo.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Appodeal/AppodealDemo/AppodealDemo.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Appodeal/AppodealDemo/AppodealDemo.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Appodeal/AppodealDemo/AppodealDemo.unity.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Appodeal/AppodealDemo/AppodealDemo.unity.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Appodeal/AppodealDemo/GDPR.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Appodeal/AppodealDemo/GDPR.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Appodeal/AppodealDemo/GDPR.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Appodeal/AppodealDemo/GDPR.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Appodeal/AppodealDemo/GDPR.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Appodeal/AppodealDemo/GDPR.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Appodeal/AppodealDemo/GDPR.unity.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Appodeal/AppodealDemo/GDPR.unity.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Appodeal/AppodealDemo/appodeal.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Appodeal/AppodealDemo/appodeal.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Appodeal/AppodealDemo/close.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Appodeal/AppodealDemo/close.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Appodeal/AppodealDemo/loading.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Appodeal/AppodealDemo/loading.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Appodeal/AppodealDemo/loading.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Appodeal/AppodealDemo/loading.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Appodeal/AppodealDemo/loading.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Appodeal/AppodealDemo/loading.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Appodeal/AppodealDemo/loading.unity.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Appodeal/AppodealDemo/loading.unity.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Appodeal/Common.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Appodeal/Common.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Appodeal/Common/IAppodealAdsClient.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Appodeal/Common/IAppodealAdsClient.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Appodeal/Common/IAppodealAdsClient.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Appodeal/Common/IAppodealAdsClient.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Appodeal/Common/IBannerAdListener.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Appodeal/Common/IBannerAdListener.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Appodeal/Common/IBannerAdListener.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Appodeal/Common/IBannerAdListener.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Appodeal/Common/IInterstitialAdListener.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Appodeal/Common/IInterstitialAdListener.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Appodeal/Common/IInterstitialAdListener.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Appodeal/Common/IInterstitialAdListener.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Appodeal/Common/IMrecAdListener.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Appodeal/Common/IMrecAdListener.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Appodeal/Common/IMrecAdListener.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Appodeal/Common/IMrecAdListener.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Appodeal/Common/INonSkippableVideoAdListener.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Appodeal/Common/INonSkippableVideoAdListener.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Appodeal/Common/INonSkippableVideoAdListener.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Appodeal/Common/INonSkippableVideoAdListener.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Appodeal/Common/IPermissionGrantedListener.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Appodeal/Common/IPermissionGrantedListener.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Appodeal/Common/IPermissionGrantedListener.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Appodeal/Common/IPermissionGrantedListener.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Appodeal/Common/IRewardedVideoAdListener.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Appodeal/Common/IRewardedVideoAdListener.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Appodeal/Common/IRewardedVideoAdListener.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Appodeal/Common/IRewardedVideoAdListener.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Appodeal/Editor.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Appodeal/Editor.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Appodeal/Editor/AppodealSettings.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Appodeal/Editor/AppodealSettings.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Appodeal/Editor/AppodealSettings.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Appodeal/Editor/AppodealSettings.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Appodeal/Editor/AppodealUnityUtils.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Appodeal/Editor/AppodealUnityUtils.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Appodeal/Editor/AppodealUnityUtils.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Appodeal/Editor/AppodealUnityUtils.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Appodeal/Editor/ArchitectureFilter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Appodeal/Editor/ArchitectureFilter.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Appodeal/Editor/ArchitectureFilter.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Appodeal/Editor/ArchitectureFilter.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Appodeal/Editor/iOSPostprocessUtils.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Appodeal/Editor/iOSPostprocessUtils.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Appodeal/Editor/iOSPostprocessUtils.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Appodeal/Editor/iOSPostprocessUtils.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Appodeal/Editor/xcode.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Appodeal/Editor/xcode.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Appodeal/Editor/xcode/AssetCatalog.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Appodeal/Editor/xcode/AssetCatalog.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Appodeal/Editor/xcode/AssetCatalog.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Appodeal/Editor/xcode/AssetCatalog.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Appodeal/Editor/xcode/JsonParser.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Appodeal/Editor/xcode/JsonParser.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Appodeal/Editor/xcode/JsonParser.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Appodeal/Editor/xcode/JsonParser.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Appodeal/Editor/xcode/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Appodeal/Editor/xcode/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Appodeal/Editor/xcode/LICENSE.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Appodeal/Editor/xcode/LICENSE.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Appodeal/Editor/xcode/PBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Appodeal/Editor/xcode/PBX.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Appodeal/Editor/xcode/PBX/Elements.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Appodeal/Editor/xcode/PBX/Elements.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Appodeal/Editor/xcode/PBX/Elements.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Appodeal/Editor/xcode/PBX/Elements.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Appodeal/Editor/xcode/PBX/Lexer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Appodeal/Editor/xcode/PBX/Lexer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Appodeal/Editor/xcode/PBX/Lexer.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Appodeal/Editor/xcode/PBX/Lexer.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Appodeal/Editor/xcode/PBX/Objects.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Appodeal/Editor/xcode/PBX/Objects.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Appodeal/Editor/xcode/PBX/Objects.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Appodeal/Editor/xcode/PBX/Objects.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Appodeal/Editor/xcode/PBX/Parser.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Appodeal/Editor/xcode/PBX/Parser.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Appodeal/Editor/xcode/PBX/Parser.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Appodeal/Editor/xcode/PBX/Parser.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Appodeal/Editor/xcode/PBX/Sections.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Appodeal/Editor/xcode/PBX/Sections.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Appodeal/Editor/xcode/PBX/Sections.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Appodeal/Editor/xcode/PBX/Sections.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Appodeal/Editor/xcode/PBX/Serializer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Appodeal/Editor/xcode/PBX/Serializer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Appodeal/Editor/xcode/PBX/Serializer.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Appodeal/Editor/xcode/PBX/Serializer.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Appodeal/Editor/xcode/PBX/Utils.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Appodeal/Editor/xcode/PBX/Utils.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Appodeal/Editor/xcode/PBX/Utils.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Appodeal/Editor/xcode/PBX/Utils.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Appodeal/Editor/xcode/PBXCapabilityType.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Appodeal/Editor/xcode/PBXCapabilityType.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Appodeal/Editor/xcode/PBXCapabilityType.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Appodeal/Editor/xcode/PBXCapabilityType.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Appodeal/Editor/xcode/PBXPath.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Appodeal/Editor/xcode/PBXPath.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Appodeal/Editor/xcode/PBXPath.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Appodeal/Editor/xcode/PBXPath.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Appodeal/Editor/xcode/PBXProject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Appodeal/Editor/xcode/PBXProject.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Appodeal/Editor/xcode/PBXProject.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Appodeal/Editor/xcode/PBXProject.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Appodeal/Editor/xcode/PBXProjectData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Appodeal/Editor/xcode/PBXProjectData.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Appodeal/Editor/xcode/PBXProjectData.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Appodeal/Editor/xcode/PBXProjectData.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Appodeal/Editor/xcode/PBXProjectExtensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Appodeal/Editor/xcode/PBXProjectExtensions.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Appodeal/Editor/xcode/PBXProjectExtensions.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Appodeal/Editor/xcode/PBXProjectExtensions.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Appodeal/Editor/xcode/PlistParser.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Appodeal/Editor/xcode/PlistParser.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Appodeal/Editor/xcode/PlistParser.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Appodeal/Editor/xcode/PlistParser.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Appodeal/Editor/xcode/ProjectCapabilityManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Appodeal/Editor/xcode/ProjectCapabilityManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Appodeal/Editor/xcode/ProjectCapabilityManager.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Appodeal/Editor/xcode/ProjectCapabilityManager.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Appodeal/Editor/xcode/XcScheme.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Appodeal/Editor/xcode/XcScheme.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Appodeal/Editor/xcode/XcScheme.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Appodeal/Editor/xcode/XcScheme.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Appodeal/Platforms.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Appodeal/Platforms.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Appodeal/Platforms/Android.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Appodeal/Platforms/Android.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Appodeal/Platforms/Android/AndroidAppodealClient.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Appodeal/Platforms/Android/AndroidAppodealClient.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Appodeal/Platforms/Android/AndroidAppodealClient.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Appodeal/Platforms/Android/AndroidAppodealClient.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Appodeal/Platforms/Android/AppodealBannerCallbacks.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Appodeal/Platforms/Android/AppodealBannerCallbacks.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Appodeal/Platforms/Android/AppodealBannerCallbacks.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Appodeal/Platforms/Android/AppodealBannerCallbacks.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Appodeal/Platforms/Android/AppodealInterstitialCallbacks.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Appodeal/Platforms/Android/AppodealInterstitialCallbacks.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Appodeal/Platforms/Android/AppodealInterstitialCallbacks.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Appodeal/Platforms/Android/AppodealInterstitialCallbacks.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Appodeal/Platforms/Android/AppodealMrecCallbacks.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Appodeal/Platforms/Android/AppodealMrecCallbacks.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Appodeal/Platforms/Android/AppodealMrecCallbacks.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Appodeal/Platforms/Android/AppodealMrecCallbacks.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Appodeal/Platforms/Android/AppodealNonSkippableVideoCallbacks.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Appodeal/Platforms/Android/AppodealNonSkippableVideoCallbacks.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Appodeal/Platforms/Android/AppodealNonSkippableVideoCallbacks.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Appodeal/Platforms/Android/AppodealNonSkippableVideoCallbacks.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Appodeal/Platforms/Android/AppodealPermissionCallbacks.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Appodeal/Platforms/Android/AppodealPermissionCallbacks.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Appodeal/Platforms/Android/AppodealPermissionCallbacks.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Appodeal/Platforms/Android/AppodealPermissionCallbacks.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Appodeal/Platforms/Android/AppodealRewardedVideoCallbacks.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Appodeal/Platforms/Android/AppodealRewardedVideoCallbacks.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Appodeal/Platforms/Android/AppodealRewardedVideoCallbacks.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Appodeal/Platforms/Android/AppodealRewardedVideoCallbacks.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Appodeal/Platforms/AppodealAdsClientFactory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Appodeal/Platforms/AppodealAdsClientFactory.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Appodeal/Platforms/AppodealAdsClientFactory.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Appodeal/Platforms/AppodealAdsClientFactory.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Appodeal/Platforms/Dummy.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Appodeal/Platforms/Dummy.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Appodeal/Platforms/Dummy/DummyClient.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Appodeal/Platforms/Dummy/DummyClient.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Appodeal/Platforms/Dummy/DummyClient.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Appodeal/Platforms/Dummy/DummyClient.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Appodeal/Platforms/iOS.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Appodeal/Platforms/iOS.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Appodeal/Platforms/iOS/AppodealAdsClient.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Appodeal/Platforms/iOS/AppodealAdsClient.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Appodeal/Platforms/iOS/AppodealAdsClient.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Appodeal/Platforms/iOS/AppodealAdsClient.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Appodeal/Platforms/iOS/AppodealObjCBridge.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Appodeal/Platforms/iOS/AppodealObjCBridge.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Appodeal/Platforms/iOS/AppodealObjCBridge.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Appodeal/Platforms/iOS/AppodealObjCBridge.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Appodeal/SampleAndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Appodeal/SampleAndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Appodeal/SampleAndroidManifest.xml.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Appodeal/SampleAndroidManifest.xml.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Editor.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Editor.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Editor/AppodealAssetsPostProcess.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Editor/AppodealAssetsPostProcess.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Editor/AppodealAssetsPostProcess.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Editor/AppodealAssetsPostProcess.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Editor/AppodealPostProcess.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Editor/AppodealPostProcess.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Editor/AppodealPostProcess.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Editor/AppodealPostProcess.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Editor/AppodealPreProcess.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Editor/AppodealPreProcess.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/adcolony.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/adcolony/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/adcolony/AndroidManifest.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/adcolony/libs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/adcolony/libs/adcolony-sdk-3.3.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/adcolony/libs/adcolony-sdk-3.3.4.jar.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/adcolony/libs/armeabi-v7a.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/adcolony/libs/armeabi-v7a/libadcolony.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/adcolony/libs/armeabi-v7a/libadcolony.so.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/adcolony/libs/armeabi-v7a/libjs.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/adcolony/libs/armeabi-v7a/libjs.so.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/adcolony/libs/x86.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/adcolony/libs/x86/libadcolony.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/adcolony/libs/x86/libadcolony.so.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/adcolony/libs/x86/libjs.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/adcolony/libs/x86/libjs.so.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/adcolony/proguard-project.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/adcolony/proguard-project.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/adcolony/project.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/adcolony/project.properties.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/appodeal.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/appodeal.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/appodeal/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/appodeal/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/appodeal/AndroidManifest.xml.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/appodeal/AndroidManifest.xml.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/appodeal/libs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/appodeal/libs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/appodeal/libs/appodeal-2.4.10.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/appodeal/libs/appodeal-2.4.10.jar.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/appodeal/libs/appodeal-banner-view-1.4.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/appodeal/libs/appodeal-banner-view-1.4.0.jar.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/appodeal/proguard-project.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/appodeal/proguard-project.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/appodeal/proguard-project.txt.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/appodeal/proguard-project.txt.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/appodeal/project.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/appodeal/project.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/appodeal/project.properties.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/appodeal/project.properties.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/appodeal/res.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/appodeal/res.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/appodeal/res/xml.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/appodeal/res/xml.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/appodeal/res/xml/network_security_config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/appodeal/res/xml/network_security_config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/appodeal/res/xml/network_security_config.xml.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/appodeal/res/xml/network_security_config.xml.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/assets/com.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/assets/com.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/assets/com/tapjoy.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/assets/com/tapjoy.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/assets/com/tapjoy/res.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/assets/com/tapjoy/res.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/assets/com/tapjoy/res/countdown_image.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/assets/com/tapjoy/res/countdown_image.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/assets/com/tapjoy/res/tj_close_button.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/assets/com/tapjoy/res/tj_close_button.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/assets/dex/amazon_ads.dx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/assets/dex/amazon_ads.dx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/assets/dex/applovin.dx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/assets/dex/applovin.dx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/assets/dex/chartboost.dx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/assets/dex/chartboost.dx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/assets/dex/facebook.dx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/assets/dex/facebook.dx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/assets/dex/ironsource.dx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/assets/dex/ironsource.dx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/assets/dex/tapjoy.dx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/assets/dex/tapjoy.dx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/assets/dex/unity_ads.dx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/assets/dex/unity_ads.dx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/assets/dex/vungle.dx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/assets/dex/vungle.dx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/assets/dex/yandex.dx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/assets/dex/yandex.dx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/assets/js.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/assets/js.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/assets/js/closebutton.html" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/assets/js/closebutton.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/assets/js/closebutton.html.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/assets/js/closebutton.html.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/assets/js/mraid.js.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/assets/js/mraid.js.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/inmobi.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/inmobi/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/inmobi/AndroidManifest.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/inmobi/libs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/inmobi/libs/inmobi-7.1.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/inmobi/libs/inmobi-7.1.1.jar.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/inmobi/libs/picasso-2.5.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/inmobi/libs/picasso-2.5.2.jar.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/inmobi/proguard-project.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/inmobi/proguard-project.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/inmobi/project.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/inmobi/project.properties.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/ogury.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/ogury/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/ogury/AndroidManifest.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/ogury/assets.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/ogury/assets/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/ogury/assets/index.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/ogury/assets/osmcore_arm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/ogury/assets/osmcore_arm.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/ogury/assets/osmcore_arm_22" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/ogury/assets/osmcore_arm_22.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/ogury/assets/osmcore_arm_pie" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/ogury/assets/osmcore_arm_pie.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/ogury/libs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/ogury/libs/ogury-3.0.13.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/ogury/libs/ogury-3.0.13.jar.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/ogury/proguard-project.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/ogury/proguard-project.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/ogury/project.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/ogury/project.properties.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/ogury/res.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/ogury/res/drawable-hdpi-v4.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/ogury/res/drawable-hdpi-v4/btn_presage_mraid_close.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/ogury/res/drawable-hdpi-v4/btn_presage_mraid_close.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/ogury/res/drawable-xhdpi-v4.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/ogury/res/drawable-xhdpi-v4/btn_presage_mraid_close.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/ogury/res/drawable-xhdpi-v4/btn_presage_mraid_close.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/ogury/res/drawable-xhdpi-v4/ic_presage_notification_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/ogury/res/drawable-xhdpi-v4/ic_presage_notification_icon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/ogury/res/drawable-xxhdpi-v4.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/ogury/res/drawable-xxhdpi-v4/btn_presage_mraid_close.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/ogury/res/drawable-xxhdpi-v4/btn_presage_mraid_close.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/ogury/res/layout.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/ogury/res/layout/presage_notification.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/ogury/res/layout/presage_notification.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/ogury/res/raw.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/ogury/res/raw/mraid.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/ogury/res/raw/mraid.js.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/ogury/res/values.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/ogury/res/values/values.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/ogury/res/values/values.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/startapp.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/startapp/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/startapp/AndroidManifest.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/startapp/libs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/startapp/libs/startapp-3.9.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/startapp/libs/startapp-3.9.3.jar.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/startapp/proguard-project.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/startapp/proguard-project.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/startapp/project.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/startapp/project.properties.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/yandex-metrica.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/yandex-metrica/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/yandex-metrica/AndroidManifest.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/yandex-metrica/libs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/yandex-metrica/libs/yandex-metrica-3.2.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/yandex-metrica/libs/yandex-metrica-3.2.2.jar.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/yandex-metrica/proguard-project.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/yandex-metrica/proguard-project.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/yandex-metrica/project.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/yandex-metrica/project.properties.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Ionic.Zip.Unity.XML" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Ionic.Zip.Unity.XML" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Ionic.Zip.Unity.XML.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Ionic.Zip.Unity.XML.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Ionic.Zip.Unity.dll.mdb.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Ionic.Zip.Unity.dll.mdb.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Ionic.Zip.Unity.dll.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Ionic.Zip.Unity.dll.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/iOS.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/Appodeal.framework.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/iOS/Appodeal.framework.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/Appodeal.framework/Appodeal" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/iOS/Appodeal.framework/Appodeal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/Appodeal.framework/Appodeal.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/iOS/Appodeal.framework/Appodeal.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/Appodeal.framework/Headers.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/iOS/Appodeal.framework/Headers.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/Appodeal.framework/Headers/APDBannerView.h" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/iOS/Appodeal.framework/Headers/APDBannerView.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/Appodeal.framework/Headers/APDBannerView.h.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/iOS/Appodeal.framework/Headers/APDBannerView.h.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/Appodeal.framework/Headers/APDDefines.h" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/iOS/Appodeal.framework/Headers/APDDefines.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/Appodeal.framework/Headers/APDDefines.h.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/iOS/Appodeal.framework/Headers/APDDefines.h.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/Appodeal.framework/Headers/APDImage.h" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/iOS/Appodeal.framework/Headers/APDImage.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/Appodeal.framework/Headers/APDImage.h.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/iOS/Appodeal.framework/Headers/APDImage.h.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/Appodeal.framework/Headers/APDInterstitialAd.h" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/iOS/Appodeal.framework/Headers/APDInterstitialAd.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/Appodeal.framework/Headers/APDInterstitialAd.h.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/iOS/Appodeal.framework/Headers/APDInterstitialAd.h.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/Appodeal.framework/Headers/APDMRECView.h" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/iOS/Appodeal.framework/Headers/APDMRECView.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/Appodeal.framework/Headers/APDMRECView.h.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/iOS/Appodeal.framework/Headers/APDMRECView.h.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/Appodeal.framework/Headers/APDNativeAd.h" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/iOS/Appodeal.framework/Headers/APDNativeAd.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/Appodeal.framework/Headers/APDNativeAd.h.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/iOS/Appodeal.framework/Headers/APDNativeAd.h.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/Appodeal.framework/Headers/APDNativeAdLoader.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/Appodeal.framework/Headers/APDNativeAdLoader.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/Appodeal.framework/Headers/APDNativeAdQueue.h" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/iOS/Appodeal.framework/Headers/APDNativeAdQueue.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/Appodeal.framework/Headers/APDNativeAdQueue.h.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/iOS/Appodeal.framework/Headers/APDNativeAdQueue.h.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/Appodeal.framework/Headers/APDNativeAdSettings.h" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/iOS/Appodeal.framework/Headers/APDNativeAdSettings.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/Appodeal.framework/Headers/APDNativeAdSettings.h.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/iOS/Appodeal.framework/Headers/APDNativeAdSettings.h.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/Appodeal.framework/Headers/APDNativeAdViewProtocol.h" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/iOS/Appodeal.framework/Headers/APDNativeAdViewProtocol.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/Appodeal.framework/Headers/APDNativeAdViewProtocol.h.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/iOS/Appodeal.framework/Headers/APDNativeAdViewProtocol.h.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/Appodeal.framework/Headers/APDRewardProtocol.h" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/iOS/Appodeal.framework/Headers/APDRewardProtocol.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/Appodeal.framework/Headers/APDRewardProtocol.h.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/iOS/Appodeal.framework/Headers/APDRewardProtocol.h.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/Appodeal.framework/Headers/APDRewardedVideo.h" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/iOS/Appodeal.framework/Headers/APDRewardedVideo.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/Appodeal.framework/Headers/APDRewardedVideo.h.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/iOS/Appodeal.framework/Headers/APDRewardedVideo.h.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/Appodeal.framework/Headers/APDSdk.h" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/iOS/Appodeal.framework/Headers/APDSdk.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/Appodeal.framework/Headers/APDSdk.h.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/iOS/Appodeal.framework/Headers/APDSdk.h.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/Appodeal.framework/Headers/APDUserInfo.h" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/iOS/Appodeal.framework/Headers/APDUserInfo.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/Appodeal.framework/Headers/APDUserInfo.h.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/iOS/Appodeal.framework/Headers/APDUserInfo.h.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/Appodeal.framework/Headers/APDUserInfoProtocol.h" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/iOS/Appodeal.framework/Headers/APDUserInfoProtocol.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/Appodeal.framework/Headers/APDUserInfoProtocol.h.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/iOS/Appodeal.framework/Headers/APDUserInfoProtocol.h.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/Appodeal.framework/Headers/Appodeal.h" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/iOS/Appodeal.framework/Headers/Appodeal.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/Appodeal.framework/Headers/Appodeal.h.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/iOS/Appodeal.framework/Headers/Appodeal.h.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/Appodeal.framework/Headers/AppodealRequestDelegateProtocol.h" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/iOS/Appodeal.framework/Headers/AppodealRequestDelegateProtocol.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/Appodeal.framework/Headers/AppodealRequestDelegateProtocol.h.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/iOS/Appodeal.framework/Headers/AppodealRequestDelegateProtocol.h.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/Appodeal.framework/Modules.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/iOS/Appodeal.framework/Modules.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/Appodeal.framework/Modules/module.modulemap" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/iOS/Appodeal.framework/Modules/module.modulemap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/Appodeal.framework/Modules/module.modulemap.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/iOS/Appodeal.framework/Modules/module.modulemap.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/AppodealBannerDelegate.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/AppodealBannerDelegate.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/AppodealBannerDelegate.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/AppodealBannerDelegate.m.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/AppodealBannerViewDelegate.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/AppodealBannerViewDelegate.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/AppodealBannerViewDelegate.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/AppodealBannerViewDelegate.m.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/AppodealInterstitialDelegate.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/AppodealInterstitialDelegate.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/AppodealInterstitialDelegate.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/AppodealInterstitialDelegate.m.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/AppodealMrecViewDelegate.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/AppodealMrecViewDelegate.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/AppodealMrecViewDelegate.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/AppodealMrecViewDelegate.m.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/AppodealNonSkippableVideoDelegate.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/AppodealNonSkippableVideoDelegate.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/AppodealNonSkippableVideoDelegate.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/AppodealNonSkippableVideoDelegate.m.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/AppodealObjCBridge.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/AppodealObjCBridge.m.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/AppodealRewardedVideoDelegate.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/AppodealRewardedVideoDelegate.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/AppodealRewardedVideoDelegate.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/AppodealRewardedVideoDelegate.m.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/AppodealUnityBannerView.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/AppodealUnityBannerView.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/AppodealUnityBannerView.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/AppodealUnityBannerView.m.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/AppodealUnityMrecView.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/AppodealUnityMrecView.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/AppodealUnityMrecView.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/AppodealUnityMrecView.m.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Both/AdScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Both/AdScript.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/InGame.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/InGame.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/ObjectSpawn.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/ObjectSpawn.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Player.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/PowerUp.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/PowerUp.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Menu/DisplayLeaderboard.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Menu/DisplayLeaderboard.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Menu/Leaderboard.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Menu/Leaderboard.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Menu/MenuController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Menu/MenuController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Menu/SelectWeiner.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Menu/SelectWeiner.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Menu/Shop.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Menu/Shop.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Grill.psd" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Grill.psd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/SpeedMark.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/SpeedMark.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/SpeedMark.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/SpeedMark.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Weiner.psd" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Weiner.psd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Weiner.psd.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Weiner.psd.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/WeinerCostumes.psd" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/WeinerCostumes.psd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/WeinerCostumes.psd.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/WeinerCostumes.psd.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/WeinerRunIcon.psd.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/WeinerRunIcon.psd.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,138 +392,28 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Both/AdScript.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="535">
-              <caret line="78" selection-start-line="78" selection-end-line="78" />
-              <folding>
-                <marker date="1552176418979" expanded="true" signature="6:153" ph="..." />
-                <marker date="1552176418979" expanded="true" signature="218:2184" ph="{...}" />
-                <marker date="1552176418979" expanded="true" signature="225:774" ph="set up" />
-                <marker date="1552176418979" expanded="true" signature="334:366" ph="{...}" />
-                <marker date="1552176418979" expanded="true" signature="804:1031" ph="{...}" />
-                <marker date="1552176418979" expanded="true" signature="1072:1310" ph="{...}" />
-                <marker date="1552176418979" expanded="true" signature="1174:1236" ph="{...}" />
-                <marker date="1552176418979" expanded="true" signature="1352:1478" ph="{...}" />
-                <marker date="1552176418979" expanded="true" signature="1408:1472" ph="{...}" />
-                <marker date="1552176418979" expanded="true" signature="1484:2182" ph="Rewarded Videos" />
-                <marker date="1552176418979" expanded="true" signature="1755:1810" ph="{...}" />
-                <marker date="1552176418979" expanded="true" signature="1879:2000" ph="{...}" />
-                <marker date="1552176418979" expanded="true" signature="2037:2167" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Menu/MenuController.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <marker date="1552074690090" expanded="false" signature="6:157" ph="..." />
-                <marker date="1552074690090" expanded="true" signature="202:2045" ph="{...}" />
-                <marker date="1552074690090" expanded="false" signature="209:529" ph="variables" />
-                <marker date="1552074690090" expanded="true" signature="559:762" ph="{...}" />
-                <marker date="1552074690090" expanded="true" signature="791:1070" ph="{...}" />
-                <marker date="1552074690090" expanded="true" signature="898:990" ph="{...}" />
-                <marker date="1552074690090" expanded="true" signature="1100:1151" ph="{...}" />
-                <marker date="1552074690090" expanded="true" signature="1184:1581" ph="{...}" />
-                <marker date="1552074690090" expanded="true" signature="1418:1489" ph="{...}" />
-                <marker date="1552074690090" expanded="true" signature="1502:1575" ph="{...}" />
-                <marker date="1552074690090" expanded="true" signature="1621:1852" ph="{...}" />
-                <marker date="1552074690090" expanded="true" signature="1648:1722" ph="{...}" />
-                <marker date="1552074690090" expanded="true" signature="1735:1846" ph="{...}" />
-                <marker date="1552074690090" expanded="true" signature="1887:2043" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Game/PowerUp.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-473">
-              <folding>
-                <marker date="1552169811053" expanded="false" signature="6:78" ph="..." />
-                <marker date="1552169811053" expanded="true" signature="116:1975" ph="{...}" />
-                <marker date="1552169811053" expanded="true" signature="301:333" ph="{...}" />
-                <marker date="1552169811053" expanded="true" signature="373:766" ph="{...}" />
-                <marker date="1552169811053" expanded="true" signature="398:756" ph="{...}" />
-                <marker date="1552169811053" expanded="true" signature="826:875" ph="{...}" />
-                <marker date="1552169811053" expanded="true" signature="903:946" ph="{...}" />
-                <marker date="1552169811053" expanded="true" signature="974:1057" ph="{...}" />
-                <marker date="1552169811053" expanded="true" signature="1063:1386" ph="+20" />
-                <marker date="1552169811053" expanded="true" signature="1105:1216" ph="{...}" />
-                <marker date="1552169811053" expanded="true" signature="1250:1371" ph="{...}" />
-                <marker date="1552169811053" expanded="false" signature="1392:1751" ph="speed" />
-                <marker date="1552169811053" expanded="true" signature="1440:1490" ph="{...}" />
-                <marker date="1552169811053" expanded="true" signature="1528:1736" ph="{...}" />
-                <marker date="1552169811053" expanded="false" signature="1757:1973" ph="pickles" />
-                <marker date="1552169811053" expanded="true" signature="1800:1953" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Game/InGame.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="735">
-              <caret line="59" selection-start-line="59" selection-end-line="59" />
-              <folding>
-                <marker date="1552172181575" expanded="false" signature="6:100" ph="..." />
-                <marker date="1552172181575" expanded="true" signature="137:1555" ph="{...}" />
-                <marker date="1552172181575" expanded="true" signature="144:312" ph="variables" />
-                <marker date="1552172181575" expanded="false" signature="322:441" ph="instance" />
-                <marker date="1552172181575" expanded="true" signature="394:426" ph="{...}" />
-                <marker date="1552172181575" expanded="true" signature="469:967" ph="{...}" />
-                <marker date="1552172181575" expanded="true" signature="511:566" ph="{...}" />
-                <marker date="1552172181575" expanded="true" signature="722:831" ph="{...}" />
-                <marker date="1552172181575" expanded="true" signature="1003:1054" ph="{...}" />
-                <marker date="1552172181575" expanded="true" signature="1088:1376" ph="{...}" />
-                <marker date="1552172181575" expanded="true" signature="1170:1307" ph="{...}" />
-                <marker date="1552172181575" expanded="true" signature="1406:1552" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>created</find>
-    </findStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Menu/MenuController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Both/Sound.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../../Weiner Run/Assets/Scripts/ShopScript.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Both/AdScript.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Appodeal/Platforms/Dummy/DummyClient.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Menu/DisplayLeaderboard.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Menu/Leaderboard.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/AddScore.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/BreakOnContact.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/CondimentTrigger.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/DetachScript.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/GameCustomization.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/InGame.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/BackgroundMove.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Menu/Shop.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/ObjectSpawn.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../../Weiner Run/Assets/Scripts/AdManager.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$USER_HOME$/Downloads/appodeal-unity-demo-GDPR/Assets/Appodeal/AppodealDemo/AppodealDemo.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/Player.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/PowerUp.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/BackgroundMove.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Both/AdScript.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Both/Sound.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/BreakOnContact.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Both/AudioManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../../Weiner Run/Assets/Scripts/NoAds.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Menu/DisplayLeaderboard.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/PowerUp.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Menu/Leaderboard.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Menu/Shop.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Menu/MenuController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/Player.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/AddScore.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/DetachScript.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/InGame.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Appodeal/Adapters.meta" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/GameCustomization.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -194,68 +433,27 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Menu/MenuController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Game/PowerUp.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Game/InGame.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Menu/Leaderboard.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Both/AudioManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Game/Player.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Game/BreakOnContact.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Menu/Shop.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Menu/Leaderboard.cs" />
+        <option value="$PROJECT_DIR$/Assets/Plugins/Android/appodeal/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Both/AdScript.cs" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="1440" />
-    <option name="height" value="900" />
-  </component>
+  <component name="ProjectId" id="1VfaGKTqmPP5ZhQg0icjVC7RYs9" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator currentView="UnityExplorer" proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="SolutionExplorer">
-        <option name="show-all-files" value="false" />
-      </pane>
-      <pane id="UnityExplorer">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Project" type="e068e287:UnityExplorerRootNode" />
-              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
-            </path>
-            <path>
-              <item name="Project" type="e068e287:UnityExplorerRootNode" />
-              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
-              <item name="Scripts" type="1045f7f1:UnityExplorerNode" />
-            </path>
-            <path>
-              <item name="Project" type="e068e287:UnityExplorerRootNode" />
-              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
-              <item name="Scripts" type="1045f7f1:UnityExplorerNode" />
-              <item name="Game" type="1045f7f1:UnityExplorerNode" />
-            </path>
-            <path>
-              <item name="Project" type="e068e287:UnityExplorerRootNode" />
-              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
-              <item name="Scripts" type="1045f7f1:UnityExplorerNode" />
-              <item name="Menu" type="1045f7f1:UnityExplorerNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-        <option name="show-hidden-items" value="false" />
-        <option name="show-project-names" value="true" />
-      </pane>
-      <pane id="AssemblyExplorer" />
-      <pane id="FileSystemExplorer" />
-    </panes>
-  </component>
   <component name="PropertiesComponent">
+    <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
     <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -274,12 +472,14 @@
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
       <option name="pid" />
+      <option name="userSelectedPid" value="false" />
       <method v="2" />
     </configuration>
     <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
       <option name="pid" />
+      <option name="userSelectedPid" value="false" />
       <method v="2" />
     </configuration>
   </component>
@@ -296,58 +496,38 @@
       <workItem from="1550176441813" duration="1852000" />
       <workItem from="1550948445136" duration="9634000" />
       <workItem from="1551035216739" duration="35035000" />
+      <workItem from="1577646512146" duration="826000" />
+      <workItem from="1577652368755" duration="15000" />
+      <workItem from="1578498477195" duration="7268000" />
+      <workItem from="1578693061523" duration="660000" />
     </task>
     <servers />
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46521000" />
-  </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.10658083" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Capture Tool" order="3" />
-      <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="NuGet" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Unity" order="10" />
-      <window_info anchor="bottom" id="Database Changes" order="11" />
-      <window_info anchor="bottom" id="Unit Tests" order="12" />
-      <window_info anchor="bottom" id="Terminal" order="13" />
-      <window_info anchor="bottom" id="Event Log" order="14" side_tool="true" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="right" id="Errors In Solution" order="4" />
-      <window_info anchor="right" id="Database" order="5" />
-    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
-  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="769" y="341" key="SettingsEditor" />
+    <state x="769" y="341" key="SettingsEditor/2560.1440" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -357,422 +537,5 @@
         </breakpoint>
       </breakpoints>
     </breakpoint-manager>
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Game/Ketchup.cs" />
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Game/Mustard.cs" />
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Game/CondimentTrigger.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
-          <folding>
-            <marker date="1551033195559" expanded="false" signature="6:78" ph="..." />
-            <marker date="1551033195559" expanded="true" signature="125:320" ph="{...}" />
-            <marker date="1551033195559" expanded="true" signature="180:318" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Game/GameCustomization.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="35" column="1" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
-          <folding>
-            <marker date="1551025496638" expanded="false" signature="6:78" ph="..." />
-            <marker date="1551025496638" expanded="true" signature="126:1011" ph="{...}" />
-            <marker date="1551025496638" expanded="false" signature="133:292" ph="Weiners" />
-            <marker date="1551025496638" expanded="true" signature="351:1009" ph="{...}" />
-            <marker date="1551025496638" expanded="true" signature="487:1001" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Game/BackgroundMove.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-          <folding>
-            <marker date="1550258076040" expanded="false" signature="6:92" ph="..." />
-            <marker date="1550258076040" expanded="true" signature="137:466" ph="{...}" />
-            <marker date="1550258076040" expanded="true" signature="258:294" ph="{...}" />
-            <marker date="1550258076040" expanded="true" signature="321:459" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Both/Sound.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
-          <folding>
-            <marker date="1551037395490" expanded="true" signature="62:267" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../Weiner Run/Assets/Scripts/ShopScript.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="51" column="9" lean-forward="true" selection-start-line="51" selection-start-column="9" selection-end-line="51" selection-end-column="9" />
-          <folding>
-            <element signature="e#0#123#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Game/AddScore.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <marker date="1551035654037" expanded="false" signature="6:78" ph="..." />
-            <marker date="1551035654037" expanded="true" signature="117:342" ph="{...}" />
-            <marker date="1551035654037" expanded="true" signature="220:340" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Game/DetachScript.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="35" column="1" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
-          <folding>
-            <marker date="1551039013300" expanded="false" signature="6:78" ph="..." />
-            <marker date="1551039013300" expanded="true" signature="121:753" ph="{...}" />
-            <marker date="1551039013300" expanded="true" signature="232:252" ph="{...}" />
-            <marker date="1551039013300" expanded="true" signature="267:331" ph="{...}" />
-            <marker date="1551039013300" expanded="true" signature="354:751" ph="{...}" />
-            <marker date="1551039013300" expanded="true" signature="490:748" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Game/ObjectSpawn.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <marker date="1551894676947" expanded="false" signature="6:78" ph="..." />
-            <marker date="1551894676947" expanded="true" signature="120:1370" ph="{...}" />
-            <marker date="1551894676947" expanded="true" signature="127:361" ph="Variables" />
-            <marker date="1551894676947" expanded="true" signature="387:515" ph="{...}" />
-            <marker date="1551894676947" expanded="true" signature="546:731" ph="{...}" />
-            <marker date="1551894676947" expanded="true" signature="766:970" ph="{...}" />
-            <marker date="1551894676947" expanded="true" signature="1020:1363" ph="{...}" />
-            <marker date="1551894676947" expanded="true" signature="1081:1357" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Appodeal/Platforms/Dummy/DummyClient.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="17" column="76" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="76" />
-          <folding>
-            <marker date="1545196248000" expanded="false" signature="6:79" ph="..." />
-            <marker date="1545196248000" expanded="true" signature="114:8343" ph="{...}" />
-            <marker date="1545196248000" expanded="true" signature="165:8341" ph="{...}" />
-            <marker date="1545196248000" expanded="true" signature="224:303" ph="{...}" />
-            <marker date="1545196248000" expanded="true" signature="376:455" ph="{...}" />
-            <marker date="1545196248000" expanded="true" signature="502:628" ph="{...}" />
-            <marker date="1545196248000" expanded="true" signature="663:753" ph="{...}" />
-            <marker date="1545196248000" expanded="true" signature="806:896" ph="{...}" />
-            <marker date="1545196248000" expanded="true" signature="968:1068" ph="{...}" />
-            <marker date="1545196248000" expanded="true" signature="1141:1239" ph="{...}" />
-            <marker date="1545196248000" expanded="true" signature="1278:1378" ph="{...}" />
-            <marker date="1545196248000" expanded="true" signature="1414:1488" ph="{...}" />
-            <marker date="1545196248000" expanded="true" signature="1523:1596" ph="{...}" />
-            <marker date="1545196248000" expanded="true" signature="1630:1713" ph="{...}" />
-            <marker date="1545196248000" expanded="true" signature="1745:1826" ph="{...}" />
-            <marker date="1545196248000" expanded="true" signature="1867:1963" ph="{...}" />
-            <marker date="1545196248000" expanded="true" signature="2022:2103" ph="{...}" />
-            <marker date="1545196248000" expanded="true" signature="2131:2208" ph="{...}" />
-            <marker date="1545196248000" expanded="true" signature="2253:2337" ph="{...}" />
-            <marker date="1545196248000" expanded="true" signature="2385:2472" ph="{...}" />
-            <marker date="1545196248000" expanded="true" signature="2521:2609" ph="{...}" />
-            <marker date="1545196248000" expanded="true" signature="2655:2740" ph="{...}" />
-            <marker date="1545196248000" expanded="true" signature="2779:2858" ph="{...}" />
-            <marker date="1545196248000" expanded="true" signature="2914:2994" ph="{...}" />
-            <marker date="1545196248000" expanded="true" signature="3049:3143" ph="{...}" />
-            <marker date="1545196248000" expanded="true" signature="3191:3274" ph="{...}" />
-            <marker date="1545196248000" expanded="true" signature="3335:3418" ph="{...}" />
-            <marker date="1545196248000" expanded="true" signature="3468:3567" ph="{...}" />
-            <marker date="1545196248000" expanded="true" signature="3629:3740" ph="{...}" />
-            <marker date="1545196248000" expanded="true" signature="3825:3922" ph="{...}" />
-            <marker date="1545196248000" expanded="true" signature="3974:4065" ph="{...}" />
-            <marker date="1545196248000" expanded="true" signature="4099:4182" ph="{...}" />
-            <marker date="1545196248000" expanded="true" signature="4214:4266" ph="{...}" />
-            <marker date="1545196248000" expanded="true" signature="4304:4397" ph="{...}" />
-            <marker date="1545196248000" expanded="true" signature="4453:4546" ph="{...}" />
-            <marker date="1545196248000" expanded="true" signature="4605:4690" ph="{...}" />
-            <marker date="1545196248000" expanded="true" signature="4748:4833" ph="{...}" />
-            <marker date="1545196248000" expanded="true" signature="4894:4979" ph="{...}" />
-            <marker date="1545196248000" expanded="true" signature="5040:5125" ph="{...}" />
-            <marker date="1545196248000" expanded="true" signature="5193:5280" ph="{...}" />
-            <marker date="1545196248000" expanded="true" signature="5335:5438" ph="{...}" />
-            <marker date="1545196248000" expanded="true" signature="5491:5588" ph="{...}" />
-            <marker date="1545196248000" expanded="true" signature="5627:5730" ph="{...}" />
-            <marker date="1545196248000" expanded="true" signature="5767:5864" ph="{...}" />
-            <marker date="1545196248000" expanded="true" signature="5910:6008" ph="{...}" />
-            <marker date="1545196248000" expanded="true" signature="6061:6163" ph="{...}" />
-            <marker date="1545196248000" expanded="true" signature="6218:6319" ph="{...}" />
-            <marker date="1545196248000" expanded="true" signature="6377:6480" ph="{...}" />
-            <marker date="1545196248000" expanded="true" signature="6537:6641" ph="{...}" />
-            <marker date="1545196248000" expanded="true" signature="6717:6807" ph="{...}" />
-            <marker date="1545196248000" expanded="true" signature="6893:6988" ph="{...}" />
-            <marker date="1545196248000" expanded="true" signature="7066:7157" ph="{...}" />
-            <marker date="1545196248000" expanded="true" signature="7221:7305" ph="{...}" />
-            <marker date="1545196248000" expanded="true" signature="7369:7475" ph="{...}" />
-            <marker date="1545196248000" expanded="true" signature="7555:7647" ph="{...}" />
-            <marker date="1545196248000" expanded="true" signature="7745:7823" ph="{...}" />
-            <marker date="1545196248000" expanded="true" signature="7856:7931" ph="{...}" />
-            <marker date="1545196248000" expanded="true" signature="7986:8064" ph="{...}" />
-            <marker date="1545196248000" expanded="true" signature="8110:8205" ph="{...}" />
-            <marker date="1545196248000" expanded="true" signature="8247:8335" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../Weiner Run/Assets/Scripts/NoAds.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#78#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/appodeal-unity-demo-GDPR/Assets/Appodeal/AppodealDemo/AppodealDemo.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-676">
-          <caret line="7" column="169" selection-start-line="7" selection-start-column="145" selection-end-line="7" selection-end-column="169" />
-          <folding>
-            <element signature="e#0#115#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../Weiner Run/Assets/Scripts/AdManager.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1320">
-          <caret line="88" column="45" selection-start-line="88" selection-start-column="45" selection-end-line="88" selection-end-column="45" />
-          <folding>
-            <element signature="e#0#105#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Menu/Leaderboard.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="780">
-          <caret line="54" column="8" selection-start-line="54" selection-start-column="8" selection-end-line="54" selection-end-column="8" />
-          <folding>
-            <marker date="1552175355620" expanded="false" signature="6:78" ph="..." />
-            <marker date="1552175355620" expanded="true" signature="151:2757" ph="{...}" />
-            <marker date="1552175355620" expanded="true" signature="478:555" ph="{...}" />
-            <marker date="1552175355620" expanded="true" signature="587:771" ph="{...}" />
-            <marker date="1552175355620" expanded="true" signature="840:1298" ph="{...}" />
-            <marker date="1552175355620" expanded="true" signature="1154:1208" ph="{...}" />
-            <marker date="1552175355620" expanded="true" signature="1221:1292" ph="{...}" />
-            <marker date="1552175355620" expanded="true" signature="1336:1412" ph="{...}" />
-            <marker date="1552175355620" expanded="true" signature="1470:1996" ph="{...}" />
-            <marker date="1552175355620" expanded="true" signature="1715:1904" ph="{...}" />
-            <marker date="1552175355620" expanded="true" signature="1917:1990" ph="{...}" />
-            <marker date="1552175355620" expanded="true" signature="2044:2508" ph="{...}" />
-            <marker date="1552175355620" expanded="true" signature="2256:2502" ph="{...}" />
-            <marker date="1552175355620" expanded="true" signature="2537:2755" ph="{...}" />
-            <marker date="1552175355620" expanded="true" signature="2667:2749" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Both/AudioManager.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
-          <folding>
-            <marker date="1552175353927" expanded="false" signature="6:43" ph="..." />
-            <marker date="1552175353927" expanded="true" signature="86:1047" ph="{...}" />
-            <marker date="1552175353927" expanded="true" signature="178:442" ph="{...}" />
-            <marker date="1552175353927" expanded="true" signature="238:436" ph="{...}" />
-            <marker date="1552175353927" expanded="true" signature="468:556" ph="{...}" />
-            <marker date="1552175353927" expanded="true" signature="590:702" ph="{...}" />
-            <marker date="1552175353927" expanded="true" signature="726:1045" ph="{...}" />
-            <marker date="1552175353927" expanded="true" signature="781:883" ph="{...}" />
-            <marker date="1552175353927" expanded="true" signature="937:1039" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Menu/DisplayLeaderboard.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="705">
-          <caret line="50" selection-start-line="50" selection-end-line="50" />
-          <folding>
-            <marker date="1551895104566" expanded="false" signature="6:100" ph="..." />
-            <marker date="1551895104566" expanded="true" signature="150:1260" ph="{...}" />
-            <marker date="1551895104566" expanded="true" signature="279:530" ph="{...}" />
-            <marker date="1551895104566" expanded="true" signature="336:417" ph="{...}" />
-            <marker date="1551895104566" expanded="true" signature="609:939" ph="{...}" />
-            <marker date="1551895104566" expanded="true" signature="670:933" ph="{...}" />
-            <marker date="1551895104566" expanded="true" signature="771:923" ph="{...}" />
-            <marker date="1551895104566" expanded="true" signature="983:1138" ph="{...}" />
-            <marker date="1551895104566" expanded="true" signature="1010:1132" ph="{...}" />
-            <marker date="1551895104566" expanded="true" signature="1171:1258" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Game/Player.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="31" column="21" lean-forward="true" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
-          <folding>
-            <marker date="1552175440486" expanded="false" signature="6:78" ph="..." />
-            <marker date="1552175440486" expanded="true" signature="115:1050" ph="{...}" />
-            <marker date="1552175440486" expanded="false" signature="122:411" ph="Variables" />
-            <marker date="1552175440486" expanded="true" signature="437:603" ph="{...}" />
-            <marker date="1552175440486" expanded="true" signature="630:905" ph="{...}" />
-            <marker date="1552175440486" expanded="true" signature="937:1048" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Game/BreakOnContact.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <marker date="1552175927542" expanded="false" signature="6:78" ph="..." />
-            <marker date="1552175927542" expanded="true" signature="123:381" ph="{...}" />
-            <marker date="1552175927542" expanded="true" signature="177:379" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Menu/Shop.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1095">
-          <caret line="93" column="5" lean-forward="true" selection-start-line="93" selection-start-column="5" selection-end-line="93" selection-end-column="5" />
-          <folding>
-            <marker date="1552176137443" expanded="false" signature="6:137" ph="..." />
-            <marker date="1552176137443" expanded="true" signature="172:4877" ph="{...}" />
-            <marker date="1552176137443" expanded="false" signature="179:647" ph="Variables" />
-            <marker date="1552176137443" expanded="true" signature="673:1381" ph="{...}" />
-            <marker date="1552176137443" expanded="true" signature="824:1375" ph="{...}" />
-            <marker date="1552176137443" expanded="true" signature="900:1365" ph="{...}" />
-            <marker date="1552176137443" expanded="true" signature="1413:1586" ph="{...}" />
-            <marker date="1552176137443" expanded="true" signature="1456:1502" ph="{...}" />
-            <marker date="1552176137443" expanded="true" signature="1531:1580" ph="{...}" />
-            <marker date="1552176137443" expanded="true" signature="1624:2496" ph="{...}" />
-            <marker date="1552176137443" expanded="true" signature="1649:2490" ph="{...}" />
-            <marker date="1552176137443" expanded="true" signature="2540:2623" ph="{...}" />
-            <marker date="1552176137443" expanded="true" signature="2662:3543" ph="{...}" />
-            <marker date="1552176137443" expanded="true" signature="2725:3537" ph="{...}" />
-            <marker date="1552176137443" expanded="true" signature="3603:3699" ph="{...}" />
-            <marker date="1552176137443" expanded="true" signature="3638:3693" ph="{...}" />
-            <marker date="1552176137443" expanded="true" signature="3771:4004" ph="{...}" />
-            <marker date="1552176137443" expanded="true" signature="3838:3913" ph="{...}" />
-            <marker date="1552176137443" expanded="true" signature="4039:4162" ph="{...}" />
-            <marker date="1552176137443" expanded="true" signature="4207:4542" ph="{...}" />
-            <marker date="1552176137443" expanded="true" signature="4288:4536" ph="{...}" />
-            <marker date="1552176137443" expanded="true" signature="4587:4754" ph="{...}" />
-            <marker date="1552176137443" expanded="true" signature="4791:4875" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Menu/MenuController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <marker date="1552074690090" expanded="false" signature="6:157" ph="..." />
-            <marker date="1552074690090" expanded="true" signature="202:2045" ph="{...}" />
-            <marker date="1552074690090" expanded="false" signature="209:529" ph="variables" />
-            <marker date="1552074690090" expanded="true" signature="559:762" ph="{...}" />
-            <marker date="1552074690090" expanded="true" signature="791:1070" ph="{...}" />
-            <marker date="1552074690090" expanded="true" signature="898:990" ph="{...}" />
-            <marker date="1552074690090" expanded="true" signature="1100:1151" ph="{...}" />
-            <marker date="1552074690090" expanded="true" signature="1184:1581" ph="{...}" />
-            <marker date="1552074690090" expanded="true" signature="1418:1489" ph="{...}" />
-            <marker date="1552074690090" expanded="true" signature="1502:1575" ph="{...}" />
-            <marker date="1552074690090" expanded="true" signature="1621:1852" ph="{...}" />
-            <marker date="1552074690090" expanded="true" signature="1648:1722" ph="{...}" />
-            <marker date="1552074690090" expanded="true" signature="1735:1846" ph="{...}" />
-            <marker date="1552074690090" expanded="true" signature="1887:2043" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Menu/SelectWeiner.cs">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Game/InGame.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="735">
-          <caret line="59" selection-start-line="59" selection-end-line="59" />
-          <folding>
-            <marker date="1552172181575" expanded="false" signature="6:100" ph="..." />
-            <marker date="1552172181575" expanded="true" signature="137:1555" ph="{...}" />
-            <marker date="1552172181575" expanded="true" signature="144:312" ph="variables" />
-            <marker date="1552172181575" expanded="false" signature="322:441" ph="instance" />
-            <marker date="1552172181575" expanded="true" signature="394:426" ph="{...}" />
-            <marker date="1552172181575" expanded="true" signature="469:967" ph="{...}" />
-            <marker date="1552172181575" expanded="true" signature="511:566" ph="{...}" />
-            <marker date="1552172181575" expanded="true" signature="722:831" ph="{...}" />
-            <marker date="1552172181575" expanded="true" signature="1003:1054" ph="{...}" />
-            <marker date="1552172181575" expanded="true" signature="1088:1376" ph="{...}" />
-            <marker date="1552172181575" expanded="true" signature="1170:1307" ph="{...}" />
-            <marker date="1552172181575" expanded="true" signature="1406:1552" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Game/PowerUp.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-473">
-          <folding>
-            <marker date="1552169811053" expanded="false" signature="6:78" ph="..." />
-            <marker date="1552169811053" expanded="true" signature="116:1975" ph="{...}" />
-            <marker date="1552169811053" expanded="true" signature="301:333" ph="{...}" />
-            <marker date="1552169811053" expanded="true" signature="373:766" ph="{...}" />
-            <marker date="1552169811053" expanded="true" signature="398:756" ph="{...}" />
-            <marker date="1552169811053" expanded="true" signature="826:875" ph="{...}" />
-            <marker date="1552169811053" expanded="true" signature="903:946" ph="{...}" />
-            <marker date="1552169811053" expanded="true" signature="974:1057" ph="{...}" />
-            <marker date="1552169811053" expanded="true" signature="1063:1386" ph="+20" />
-            <marker date="1552169811053" expanded="true" signature="1105:1216" ph="{...}" />
-            <marker date="1552169811053" expanded="true" signature="1250:1371" ph="{...}" />
-            <marker date="1552169811053" expanded="false" signature="1392:1751" ph="speed" />
-            <marker date="1552169811053" expanded="true" signature="1440:1490" ph="{...}" />
-            <marker date="1552169811053" expanded="true" signature="1528:1736" ph="{...}" />
-            <marker date="1552169811053" expanded="false" signature="1757:1973" ph="pickles" />
-            <marker date="1552169811053" expanded="true" signature="1800:1953" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Both/AdScript.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="535">
-          <caret line="78" selection-start-line="78" selection-end-line="78" />
-          <folding>
-            <marker date="1552176418979" expanded="true" signature="6:153" ph="..." />
-            <marker date="1552176418979" expanded="true" signature="218:2184" ph="{...}" />
-            <marker date="1552176418979" expanded="true" signature="225:774" ph="set up" />
-            <marker date="1552176418979" expanded="true" signature="334:366" ph="{...}" />
-            <marker date="1552176418979" expanded="true" signature="804:1031" ph="{...}" />
-            <marker date="1552176418979" expanded="true" signature="1072:1310" ph="{...}" />
-            <marker date="1552176418979" expanded="true" signature="1174:1236" ph="{...}" />
-            <marker date="1552176418979" expanded="true" signature="1352:1478" ph="{...}" />
-            <marker date="1552176418979" expanded="true" signature="1408:1472" ph="{...}" />
-            <marker date="1552176418979" expanded="true" signature="1484:2182" ph="Rewarded Videos" />
-            <marker date="1552176418979" expanded="true" signature="1755:1810" ph="{...}" />
-            <marker date="1552176418979" expanded="true" signature="1879:2000" ph="{...}" />
-            <marker date="1552176418979" expanded="true" signature="2037:2167" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
   </component>
 </project>

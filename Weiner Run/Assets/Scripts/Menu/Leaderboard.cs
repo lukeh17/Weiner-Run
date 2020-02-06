@@ -4,14 +4,13 @@ using UnityEngine;
 using UnityEngine.Networking;
 
 public class Leaderboard : MonoBehaviour {
-
-    const string privateCode = "LUwKkHKTFECf7JO_qo43CQrZiuxZ1ihEujNnlT5BiPUw";
-    const string publicCode = "5abad6a1012b2e1068d3d021";
-    const string webURL = "http://dreamlo.com/lb/";
+    private const string PrivateCode = "LUwKkHKTFECf7JO_qo43CQrZiuxZ1ihEujNnlT5BiPUw";
+    private const string PublicCode = "5abad6a1012b2e1068d3d021";
+    private const string WebUrl = "http://dreamlo.com/lb/";
 
     public Highscore[] highscoresList;
-    DisplayLeaderboard leaderboardDisplay;
-    private bool _created;
+    private DisplayLeaderboard leaderboardDisplay;
+    private bool created;
 
     private void Awake()
     {
@@ -27,8 +26,8 @@ public class Leaderboard : MonoBehaviour {
 
     private IEnumerator UploadHighScore(string username, int score)
     {
-        WWW www = new WWW(webURL + privateCode + "/add/" + WWW.EscapeURL(username) + "/" + score);
-        //UnityWebRequest www = new UnityWebRequest(webURL + privateCode + "/add/" + UnityWebRequest.EscapeURL(username) + "/" + score);
+        WWW www = new WWW(WebUrl + PrivateCode + "/add/" + WWW.EscapeURL(username) + "/" + score);
+        //UnityWebRequest www = new UnityWebRequest(WebUrl + PrivateCode + "/add/" + UnityWebRequest.EscapeURL(username) + "/" + score);
         yield return www;
 
         if (string.IsNullOrEmpty(www.error))
@@ -48,7 +47,7 @@ public class Leaderboard : MonoBehaviour {
 
     private IEnumerator DownloadHighScoresFromDatabase()
     {
-        WWW www = new WWW(webURL + publicCode + "/pipe/" + "9");
+        WWW www = new WWW(WebUrl + PublicCode + "/pipe/" + "9");
         //UnityWebRequest www = UnityWebRequest.Get(webURL + publicCode + "/pipe/");
         
         yield return www;
@@ -67,12 +66,12 @@ public class Leaderboard : MonoBehaviour {
 
     private void FormatHighscores(string text)
     {
-        string[] entry = text.Split(new char[] { '\n' }, System.StringSplitOptions.RemoveEmptyEntries);
+        string[] entry = text.Split(new[] { '\n' }, System.StringSplitOptions.RemoveEmptyEntries);
         highscoresList = new Highscore[entry.Length];
 
         for (int i = 0; i < entry.Length; i++)
         {
-            string[] entryInfo = entry[i].Split(new char[] { '|' });
+            string[] entryInfo = entry[i].Split('|');
             string username = entryInfo[0];
             int score = int.Parse(entryInfo[1]);
             highscoresList[i] = new Highscore(username, score);
@@ -82,12 +81,12 @@ public class Leaderboard : MonoBehaviour {
     public struct Highscore
     {
         private string username;
-        public readonly int score;
+        public readonly int Score;
 
         public Highscore(string _username, int _score)
         {
             username = _username;
-            score = _score;
+            Score = _score;
         }
     }
 }

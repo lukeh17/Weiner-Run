@@ -28,7 +28,7 @@ public class DisplayLeaderboard : MonoBehaviour {
             highscoreText[i].text = i + 1 + ".";
             if (highscoreList.Length > i)
             {
-                highscoreText[i].text += "  " + highscoreList[i].score;
+                highscoreText[i].text += "  " + highscoreList[i].Score;
                 //highscoreList[i].username + " " +
             }
         }

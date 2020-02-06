@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using Both;
 using UnityEngine;
 using UnityEngine.UI;
 
