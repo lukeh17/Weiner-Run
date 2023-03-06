@@ -58,7 +58,7 @@ public class InGame : MonoBehaviour
         {
             adShown = 0;
             PlayerPrefs.SetInt("ad", adShown);
-            AdScript._as.ShowInterstitial();
+            AdScript.ShowInterstitial();
         }
 
         adShown++;

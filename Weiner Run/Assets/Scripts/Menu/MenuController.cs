@@ -61,11 +61,11 @@ public class MenuController : MonoBehaviour
     {
         if (w == "")
         {
-            Debug.Log("Valid Username: " + username);
+            //Debug.Log("Valid Username: " + username);
         }
         else
         {
-            Debug.Log("Invalid username restarting: " + username);
+            //Debug.Log("Invalid username restarting: " + username);
             Generate();
         }
     }

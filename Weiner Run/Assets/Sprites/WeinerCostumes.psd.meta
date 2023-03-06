@@ -1,31 +1,75 @@
 fileFormatVersion: 2
 guid: 5e1d458261af44727bcae2e964194355
 TextureImporter:
-  fileIDToRecycleName:
-    21300000: SpaceSuit
-    21300002: SpaceHelmet
-    21300004: Boot
-    21300006: SpaceSuitBody
-    21300008: Pickle
-    21300010: Sombrero1
-    21300012: Sombrero2
-    21300014: Mustache
-    21300016: Poncho
-    21300018: Monocle
-    21300020: Suit
-    21300022: Fire
-    21300024: WeinerCostumes_0
-    21300026: Sombrero
-    21300028: WeinerCostumes_1
-    21300030: WeinerCostumes_2
-    21300032: WeinerCostumes_3
-    21300034: WeinerCostumes_4
-    21300036: WeinerCostumes_5
-    21300038: WeinerCostumes_6
-    21300040: WeinerCostumes_7
-    21300042: SpaceSuitPiece
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: SpaceSuit
+  - first:
+      213: 21300002
+    second: SpaceHelmet
+  - first:
+      213: 21300004
+    second: Boot
+  - first:
+      213: 21300006
+    second: SpaceSuitBody
+  - first:
+      213: 21300008
+    second: Pickle
+  - first:
+      213: 21300010
+    second: Sombrero1
+  - first:
+      213: 21300012
+    second: Sombrero2
+  - first:
+      213: 21300014
+    second: Mustache
+  - first:
+      213: 21300016
+    second: Poncho
+  - first:
+      213: 21300018
+    second: Monocle
+  - first:
+      213: 21300020
+    second: Suit
+  - first:
+      213: 21300022
+    second: Fire
+  - first:
+      213: 21300024
+    second: WeinerCostumes_0
+  - first:
+      213: 21300026
+    second: Sombrero
+  - first:
+      213: 21300028
+    second: WeinerCostumes_1
+  - first:
+      213: 21300030
+    second: WeinerCostumes_2
+  - first:
+      213: 21300032
+    second: WeinerCostumes_3
+  - first:
+      213: 21300034
+    second: WeinerCostumes_4
+  - first:
+      213: 21300036
+    second: WeinerCostumes_5
+  - first:
+      213: 21300038
+    second: WeinerCostumes_6
+  - first:
+      213: 21300040
+    second: WeinerCostumes_7
+  - first:
+      213: 21300042
+    second: SpaceSuitPiece
   externalObjects: {}
-  serializedVersion: 7
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -45,6 +89,8 @@ TextureImporter:
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -54,8 +100,8 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -76,11 +122,16 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  cookieLightType: 1
   platformSettings:
-  - serializedVersion: 2
+  - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -91,7 +142,8 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-  - serializedVersion: 2
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
     buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -102,7 +154,8 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-  - serializedVersion: 2
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
     buildTarget: iPhone
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -113,7 +166,8 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-  - serializedVersion: 2
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
     buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -124,6 +178,31 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -143,6 +222,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: cf2cb2fc7f1ec4d1f886b544836f668f
+      internalID: 21300000
       vertices: []
       indices: 
       edges: []
@@ -163,6 +243,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: befe3482051b44ddeb0ec72c3b07d1b0
+      internalID: 21300002
       vertices: []
       indices: 
       edges: []
@@ -183,6 +264,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: f49c2b6da327c4a1996660e786059d53
+      internalID: 21300004
       vertices: []
       indices: 
       edges: []
@@ -203,6 +285,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 338e169d7c6cb4e488d90131c24b4497
+      internalID: 21300006
       vertices: []
       indices: 
       edges: []
@@ -223,6 +306,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: c2d0762a1c991474f8308fc4bcdfd3b4
+      internalID: 21300008
       vertices: []
       indices: 
       edges: []
@@ -243,6 +327,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 7b04adae1a05e46c09fe8bebb2464799
+      internalID: 21300010
       vertices: []
       indices: 
       edges: []
@@ -263,6 +348,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: c1f21128c4f6e4660bbb132d3bbe87c7
+      internalID: 21300014
       vertices: []
       indices: 
       edges: []
@@ -283,6 +369,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 727cf047d8a3f4e3caf4b8f6b5cd963a
+      internalID: 21300016
       vertices: []
       indices: 
       edges: []
@@ -303,6 +390,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 8ddeadaff1ed44166ae5ef022c9fad6b
+      internalID: 21300018
       vertices: []
       indices: 
       edges: []
@@ -323,6 +411,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: bab2a216b51f94e48b486f11940cffed
+      internalID: 21300020
       vertices: []
       indices: 
       edges: []
@@ -343,6 +432,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: e4c119b73e3854481aa1cd81e98fddae
+      internalID: 21300022
       vertices: []
       indices: 
       edges: []
@@ -351,13 +441,27 @@ TextureImporter:
     physicsShape: []
     bones: []
     spriteID: e0b7ebcd8bef5495eba1fc5a6edd2023
+    internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Boot: 21300004
+      Fire: 21300022
+      Monocle: 21300018
+      Mustache: 21300014
+      Pickle: 21300008
+      Poncho: 21300016
+      Sombrero1: 21300010
+      SpaceHelmet: 21300002
+      SpaceSuit: 21300000
+      SpaceSuitBody: 21300006
+      Suit: 21300020
   spritePackingTag: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
+  pSDShowRemoveMatteOption: 1
   userData: 
   assetBundleName: 
   assetBundleVariant: 

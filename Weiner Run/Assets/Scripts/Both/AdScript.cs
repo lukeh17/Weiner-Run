@@ -1,13 +1,13 @@
 ﻿using System;
 using System.Collections;
-using AppodealAds.Unity.Api;
-using AppodealAds.Unity.Common;
+using AppodealStack.Monetization.Api;
+using AppodealStack.Monetization.Common;
 using UnityEngine;
 using UnityEngine.Serialization;
 
 namespace Both
 {
-    public class AdScript : MonoBehaviour, IRewardedVideoAdListener
+    public class AdScript : MonoBehaviour
     {
         #region set up
         public static AdScript _as;
@@ -22,7 +22,7 @@ namespace Both
             private const string AppKey = "";
     
 #elif UNITY_ANDROID
-        private const string AppKey = "422478dd5be1151877f413c97d2977b6abd7a5d7e69ff967";
+        private const string AppKey = "dc52c1829cf0baebde7f78f07343f8b21965cf1f00ca9734";
         
 #elif UNITY_IPHONE
              private const string AppKey = "";
@@ -34,23 +34,23 @@ namespace Both
     
         private void Start()
         {
-            Appodeal.initialize(AppKey, Appodeal.INTERSTITIAL | Appodeal.REWARDED_VIDEO);
-            Appodeal.setTesting(false); //Set to false on published build
+            Appodeal.Initialize(AppKey, AppodealAdType.Interstitial | AppodealAdType.RewardedVideo);
+            Appodeal.SetTesting(true); //Set to false on published build
         
-            Appodeal.disableLocationPermissionCheck();
+            Appodeal.SetLocationTracking(false);
         }
     
-        public void ShowInterstitial() {
-            if(Appodeal.isLoaded(Appodeal.INTERSTITIAL) && !Appodeal.isPrecache(Appodeal.INTERSTITIAL)) {
-                Appodeal.show (Appodeal.INTERSTITIAL);
+        public static void ShowInterstitial() {
+            if(Appodeal.IsLoaded(AppodealAdType.Interstitial) && !Appodeal.IsPrecache(AppodealAdType.Interstitial)) {
+                Appodeal.Show(AppodealAdType.Interstitial);
             } else {
-                Appodeal.cache(Appodeal.INTERSTITIAL);
+                Appodeal.Cache(AppodealAdType.Interstitial);
             }
         }
     
         public void ShowRewardedVideo() {
-            if(Appodeal.canShow(Appodeal.REWARDED_VIDEO)) {
-                Appodeal.show (Appodeal.REWARDED_VIDEO);
+            if(Appodeal.CanShow(AppodealAdType.RewardedVideo)) {
+                Appodeal.Show(AppodealAdType.RewardedVideo);
             }
         }
 
@@ -58,6 +58,10 @@ namespace Both
         public void onRewardedVideoClosed(bool finished) { }
         public void onRewardedVideoExpired() { }
         public void onRewardedVideoClicked() { }
+        public void onRewardedVideoShowFailed()
+        {
+            StartCoroutine(nameof(NoAdsText));
+        }
 
         public void onRewardedVideoShown() { }
         public void onRewardedVideoLoaded(bool precache) { }
